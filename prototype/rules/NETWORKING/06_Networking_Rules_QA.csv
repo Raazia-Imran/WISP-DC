@@ -1,0 +1,48 @@
+QA_ID,Check,Status,Notes
+QA-F01,Rule ID uniqueness,PASS,137 retained Rule_IDs are unique; no duplicate Rule_ID found.
+QA-F02,Formula ID uniqueness,PASS,No Networking-owned formula ID exists in the actual Part 1–5 formula files; external formula references are mapped without creating a new formula ID.
+QA-F03,Source ID consistency,PASS,"39 canonical source documents are represented; original source IDs are preserved, including two cross-ID same-document aliases."
+QA-F04,Exact rule duplicates,PASS,No exact duplicate rule groups found across Parts 1–5.
+QA-F05,Semantic rule duplicates,PASS,No cross-part rule pair met the conservative semantic-duplicate audit threshold; related integration rules remain distinct.
+QA-F06,Formula duplicates,PASS,External WRR formula references are deduplicated by canonical formula ID; no Networking-owned duplicate formula retained.
+QA-F07,External formula duplication,PASS,Workload-owned WRR formulas remain external references and are not copied into Networking-owned formula catalogue.
+QA-F08,Source duplication,PASS,Same-document repeats are consolidated while original source IDs/part relationships remain traceable.
+QA-F09,Part 1 integration,PASS,Actual Part 1 CSV was directly loaded and all 18 rules retained.
+QA-F10,Part 2 integration,PASS,Actual Part 2 CSV was directly loaded and all 26 rules retained.
+QA-F11,Part 3 integration,PASS,Actual Part 3 CSV was directly loaded and all 28 rules retained.
+QA-F12,Part 4 integration,PASS,Actual Part 4 CSV was directly loaded and all 40 rules retained.
+QA-F13,Part 5 integration,PASS,Actual Part 5 CSV was directly loaded and all 25 integration rules retained.
+QA-F14,Workload ownership,PASS,WRR/WLR logic remains referenced rather than absorbed into Networking.
+QA-F15,CPU ownership,LIMITATION,Exact external CPU Rule IDs are not present in the supplied runtime inputs; dependency is retained without invention.
+QA-F16,GPU ownership,LIMITATION,Exact external GPU Rule IDs are not present in the supplied runtime inputs; dependency is retained without invention.
+QA-F17,Memory ownership,LIMITATION,Exact external Memory Rule IDs are not present in the supplied runtime inputs; dependency is retained without invention.
+QA-F18,Storage ownership,PASS,Networking retains only the storage-network path/connectivity side; storage-domain ownership is not duplicated.
+QA-F19,Server ownership,LIMITATION,Exact external Server Rule IDs are not present in the supplied runtime inputs; dependency is retained without invention.
+QA-F20,Compatibility ownership,LIMITATION,Exact finalized 137 Compatibility Rule IDs are not present in the supplied runtime inputs; status remains pending.
+QA-F21,Catalogue field existence,LIMITATION,Required NETWORKING(5).csv is unavailable; Part 0 field audit derived from the available NETWORKING(6).csv is used as fallback evidence.
+QA-F22,Catalogue field traceability,PASS,Part-wise field registers were reconciled against the Part 0 field register; 134 audited catalogue fields are preserved.
+QA-F23,Protected conflict preservation,PASS,"NET-019, NET-020, NET-026 and NET-032 remain explicitly protected; no normalization performed."
+QA-F24,Requirement traceability,LIMITATION,No candidate workload/network requirement instance was supplied for final instance-level evaluation.
+QA-F25,Performance traceability,PASS,Part 2 performance evidence rules are retained; capability is not treated as achieved workload performance.
+QA-F26,Architecture traceability,PASS,Part 3 architecture/path rules are retained; catalogue capability is not treated as a deployed graph.
+QA-F27,Reliability traceability,PASS,Part 4 reliability/redundancy/failover rules are retained; missing evidence remains visible.
+QA-F28,Bottleneck traceability,PASS,Part 5 bottleneck categories are preserved; no unsupported bottleneck instance was fabricated.
+QA-F29,Feasibility-state logic,PASS,"NETWORK_FEASIBLE, NETWORK_NOT_FEASIBLE and NETWORK_INSUFFICIENT_EVIDENCE logic remains distinct."
+QA-F30,UNKNOWN != FAILURE,PASS,Missing/conflicting evidence is not converted into NETWORK_NOT_FEASIBLE.
+QA-F31,UNKNOWN != PASS,PASS,Missing/conflicting evidence is not converted into NETWORK_FEASIBLE.
+QA-F32,Hard-failure validation,PASS,"Hard failure requires an applicable, demonstrable Network-domain violation."
+QA-F33,Evidence-gap handling,PASS,Material evidence gaps remain explicit in the consolidated gaps and Part 5 audit trail.
+QA-F34,Training/inference distinction,PASS,Training and inference network logic remain separate.
+QA-F35,Storage-network boundary,PASS,Storage connectivity and storage reliability are not merged.
+QA-F36,Research traceability,PASS,17 unique research papers are recoverable from the consolidated source/research provenance.
+QA-F37,Source traceability,PASS,Source metadata is carried from actual source registers; no new source metadata invented.
+QA-F38,No unsupported universal thresholds,PASS,"No unsupported bandwidth, latency, throughput, utilization, topology, redundancy or failover threshold is present."
+QA-F39,No invented values,PASS,"No candidate performance, requirement, reliability or topology values were fabricated."
+QA-F40,No invented IDs,PASS,No Rule_ID or Formula_ID was invented; the instructed NW-P2-F-001 was not created because it is absent from the actual formula file.
+QA-F41,No invented source metadata,PASS,Canonicalization uses existing source titles/URLs/IDs; missing metadata is not filled with guesses.
+QA-F42,Compatibility pending handling,PASS,Compatibility validation remains explicitly pending where exact 137 rule IDs are unavailable.
+QA-F43,Part 4 traceability limitations,PASS,Prior Part 4 limitation about unavailable Part 1/2 CSVs is resolved because the actual Part 1 and Part 2 CSVs were directly loaded in final consolidation.
+QA-F44,Part 5 traceability limitations,LIMITATION,Part 5 candidate evaluation remains evidence-limited because no candidate configuration/workload instance was supplied; the baseline insufficient-evidence state is preserved.
+QA-F45,Validation-field consistency,LIMITATION,"Three retained rules have non-standard/blank validation values in their source files (P2-026, P3-027, P3-028); they are preserved and not silently upgraded/downgraded."
+QA-F46,Final statistics/file reconciliation,PASS,"Final rule, source, formula, gap, field and QA counts are generated from the actual consolidated files; protected limitations are reflected in statistics."
+QA-F47,Part 3 cross-domain reference file,LIMITATION,"The listed Part 3 Cross_Domain_References.csv exists but is empty (0 bytes); no Part 3 cross-domain IDs were invented. Part 0, Part 4 and Part 5 cross-domain evidence remains available."

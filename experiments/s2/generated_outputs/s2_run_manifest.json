@@ -1,0 +1,12 @@
+{
+  "scenario_count": 6,
+  "scenario_matches": 6,
+  "all_scenarios_match_workbook": true,
+  "sensitivity_rows": 99,
+  "evidence_boundary": {
+    "local_llama_inference_executed": false,
+    "official_mlperf_traces_used": true,
+    "operational_energy_claimed": false,
+    "monetary_cheapest_claimed": false
+  }
+}

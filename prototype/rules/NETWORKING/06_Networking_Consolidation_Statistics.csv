@@ -1,0 +1,75 @@
+Metric,Value
+Raw rules Part 1,18
+Raw rules Part 2,26
+Raw rules Part 3,28
+Raw rules Part 4,40
+Raw rules Part 5,25
+Raw total rules,137
+Exact duplicate rules,0
+Semantic duplicates,0
+Rules merged,0
+Rules removed,0
+Final unique rules,137
+Validation A,58
+Validation B,33
+Validation C,43
+Validation D,0
+Non-standard/blank validation values retained,3
+Raw formula records,14
+Networking-owned formulas,0
+External canonical formula references,11
+Formula duplicates,0
+Final formulas,0
+Raw source records,49
+Unique canonical sources,39
+Research sources / unique research papers,17
+Official/vendor sources,14
+Standards/official methodology sources,4
+Benchmark sources,4
+Catalogue fields referenced by final exact register,134
+Catalogue fields present,134
+Catalogue field references absent/non-exact,3
+Fields with quality limitations,19
+Protected conflicting catalogue records,4
+Fields used in final rule mappings,46
+Raw gaps,97
+Final consolidated gaps,71
+Critical gaps,7
+Traceability gaps,3
+Catalogue gaps,18
+Performance gaps,9
+Architecture gaps,5
+Reliability gaps,14
+Compatibility gaps,1
+Research gaps,4
+Raw catalogue field gaps,83
+Final catalogue field gaps,63
+Overlap findings,49
+QA checks,47
+QA PASS,37
+QA FAIL,0
+QA limitations,10
+Unsupported universal thresholds,0
+Manual-review rules,28
+Project-defined assumptions,0
+Research-supported rules,33
+Genuinely new research-derived rules,30
+Compatibility validation pending,1
+Cross-domain references,28
+Bottleneck categories,18
+Hard constraint failures,0
+NETWORK_FEASIBLE evaluations,0
+NETWORK_NOT_FEASIBLE evaluations,0
+NETWORK_INSUFFICIENT_EVIDENCE evaluations,1
+Protected catalogue conflicts preserved — NET-019,1
+Protected catalogue conflicts preserved — NET-020,1
+Protected catalogue conflicts preserved — NET-026,1
+Protected catalogue conflicts preserved — NET-032,1
+Part 1 traceability limitation,RESOLVED — actual Part 1 CSV directly loaded
+Part 2 traceability limitation,RESOLVED — actual Part 2 CSV directly loaded
+Part 4 traceability limitations,PRIOR Part 1/2 availability limitation resolved; no new Part 4 source-file availability limitation
+Part 5 traceability limitations,REMAIN — candidate evaluation instance and exact external domain Rule IDs unavailable
+NETWORKING(5).csv availability,UNAVAILABLE; NETWORKING(6).csv is the available catalogue used by Part 0 audit
+NW-P2-F-001 status,NOT PRESENT in actual Part 2 formula file; not invented
+Genuinely new Networking-owned formulas,0
+Part 3 cross-domain reference file status,EMPTY — no Part 3 cross-domain IDs invented

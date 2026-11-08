@@ -1,0 +1,18 @@
+Metric,Count
+Total CPU rules audited,47
+Rules with direct research support,26
+Rules with partial research support,6
+Rules with technical/vendor source as primary,5
+Rules with context-specific research support,9
+Rules with no relevant research evidence,1
+Research papers already represented in baseline,1
+New research papers added,9
+Rules enriched with research evidence,41
+Rules unchanged / current-source only,6
+Rules requiring review,0
+Research gaps,15
+Existing formulas audited,19
+Formulas with research/context support,17
+Formulas marked project-defined/derived,1
+QA checks,28
+QA PASS,28

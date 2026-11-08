@@ -1,0 +1,27 @@
+Statistic,Value
+Part 1 raw rule count,14
+Part 2 raw rule count,14
+Part 3 raw rule count,18
+Part 4 raw rule count,18
+Part 5 raw rule count,17
+Raw total,81
+Exact duplicate Rule_IDs,0
+Exact duplicate Rule_Descriptions,0
+Semantic duplicates merged,0
+Semantic overlaps reviewed and retained as complementary,22
+Rules merged,0
+Rules removed,0
+Final unique rules,81
+Raw formula count,1
+Formula duplicates,0
+Final Memory formula count,1
+External formula references preserved,15
+Unique sources,38
+Research sources,16
+Vendor/technical sources,13
+Catalogue fields referenced,20
+Raw gaps,45
+Consolidated gaps,37
+QA checks,30
+QA checks passed,30
+Unsupported universal thresholds,0

@@ -1,0 +1,18 @@
+Catalogue,Records_Audited,Catalogue_Fields,Memory_Related_Fields,Memory_Field_Status,Parse_Note
+AI SERVER(6).CSV,32.0,212,18,IDENTIFIED,Parsed with standard CSV parser.
+COOLING-RELATED HARDWARE PARAMETERS(4).csv,29.0,6,0,NONE IDENTIFIED,CSV contains structurally malformed rows; header and parseable rows inspected with bad rows skipped. No memory field was identified in this catalogue.
+CPU(7).csv,12.0,110,22,IDENTIFIED,Parsed with standard CSV parser.
+GPU(7).csv,20.0,102,12,IDENTIFIED,Parsed with standard CSV parser.
+NETWORKING(3).csv,32.0,134,0,NONE IDENTIFIED,Parsed with standard CSV parser.
+PDU(3).csv,77.0,18,0,NONE IDENTIFIED,Parsed with standard CSV parser.
+POWER DISTRIBUTION(3).csv,59.0,9,0,NONE IDENTIFIED,CSV contains structurally malformed rows; header and parseable rows inspected with bad rows skipped. No memory field was identified in this catalogue.
+RACK(4).csv,12.0,21,0,NONE IDENTIFIED,CSV contains structurally malformed rows; header and parseable rows inspected with bad rows skipped. No memory field was identified in this catalogue.
+STORAGE(5).CSV,110.0,23,0,NONE IDENTIFIED,CSV contains structurally malformed rows; header and parseable rows inspected with bad rows skipped. No memory field was identified in this catalogue.
+UPS(3).csv,91.0,21,0,NONE IDENTIFIED,Parsed with standard CSV parser.
+OVERALL,474.0,Across uploaded catalogues,52,52 fields across 3 catalogues,No Memory Rules or Memory Formulas created.
+FIELD_COUNT_BY_CATALOGUE,,,AI SERVER=18; CPU=22; GPU=12; other 7 catalogues=0,,
+FIELD_COUNT_BY_DOMAIN,,,Capacity(A)=3; Bandwidth(B)=8; Technology/Type(C)=6; Configuration(D)=7; GPU Memory(G)=9; Host/CPU Memory(H)=11; Other Memory-Related/Performance(I)=8,,Counts use the Field_Category column; status/notes fields are classified with their associated memory domain.
+DATA_QUALITY,,,14 findings,REPORT ONLY,"Main issues: duplicate server representations, mixed units/text-vs-numeric representations, derived vs verified bandwidth, partial GPU CPU-memory field, and malformed non-memory catalogue rows."
+MEMORY_FIELD_GAPS,,,11 gaps,IDENTIFIED,Includes hardware catalogue gaps and explicitly separated workload/rule-level gaps.
+READINESS,,,READY=3; PARTIALLY READY=4; FIELD GAP=4,AUDIT RESULT,"Training/inference gaps are intentionally treated as workload/rule-level gaps, not fabricated hardware fields."
+PART_0_BOUNDARY,,,,PASS,"No Rule_IDs, Memory Rules, Memory Formulas, thresholds, or inferred catalogue values were created."

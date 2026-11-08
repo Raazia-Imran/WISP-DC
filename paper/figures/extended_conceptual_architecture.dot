@@ -1,0 +1,62 @@
+digraph WISPDC {
+  graph [rankdir=LR, bgcolor="white", pad="0.18", nodesep="0.32", ranksep="0.55",
+         fontname="Helvetica", fontsize=18, label="Extended conceptual architecture for workload-specific infrastructure planning", labelloc=t];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, margin="0.12,0.08", color="#17324D", penwidth=1.2];
+  edge [color="#647789", penwidth=1.2, arrowsize=0.7];
+
+  subgraph cluster_inputs {
+    label="Inputs and evidence"; color="#8BB8C2"; style="rounded";
+    user [label="User requirements\nworkload, deadline or throughput,\nlatency, accuracy, resource limits", fillcolor="#EAF4F4"];
+    catalog [label="Candidate catalogue\nobserved systems and\nversioned metadata", fillcolor="#EEF2FA"];
+    evidence [label="External evidence\nMLPerf records, OEM specifications,\nprices where independently verifiable", fillcolor="#EEF2FA"];
+  }
+
+  profile [label="Workload profile\nand evidence boundary", fillcolor="#EAF4F4", color="#147D80"];
+  train [label="Training feasibility\nS1: time-to-quality\nand applicable limits", fillcolor="#FFF3D9", color="#D88B0B"];
+  infer [label="Inference feasibility\nS2: throughput, TTFT,\nTPOT, accuracy and limits", fillcolor="#FFF3D9", color="#D88B0B"];
+  filter [label="Hard-constraint filter\nretain pass/fail reasons", fillcolor="#F8E9E9", color="#B44A4A"];
+  rank [label="Explainable ranking\nminimum resources, then\nscenario-specific tie-break", fillcolor="#F8E9E9", color="#B44A4A"];
+
+  subgraph cluster_support {
+    label="Bounded supporting analyses"; color="#8BB8C2"; style="rounded";
+    sizing [label="Infrastructure sizing\nrack fit and resource count", fillcolor="#EEF2FA"];
+    power [label="Power and energy\nmeasured value or labelled proxy", fillcolor="#EEF2FA"];
+    cost [label="Cost analysis\nonly with comparable evidence", fillcolor="#EEF2FA"];
+    risk [label="Evidence and risk log\nassumptions, missing data,\nconstraint violations", fillcolor="#EEF2FA"];
+  }
+
+  recommend [label="Feasible recommendation\nwith justification", fillcolor="#E8F5EC", color="#2C8C69"];
+  infeasible [label="Infeasible outcome\nwith binding constraints", fillcolor="#FBEAEA", color="#B44A4A"];
+  reports [label="Decision package\nconfiguration, supporting checks,\nprovenance and limitations", fillcolor="#E8F5EC", color="#2C8C69"];
+
+  subgraph cluster_future {
+    label="Conceptual extension (not validated in this study)"; color="#A8A8A8"; style="rounded,dashed";
+    existing [label="Existing-facility profile", fillcolor="#F3F3F3", color="#888888"];
+    gap [label="Gap and compatibility\nassessment", fillcolor="#F3F3F3", color="#888888"];
+    upgrade [label="Upgrade alternatives\nand roadmap", fillcolor="#F3F3F3", color="#888888"];
+    existing -> gap -> upgrade [style=dashed, color="#888888"];
+  }
+
+  user -> profile;
+  catalog -> profile;
+  evidence -> profile;
+  profile -> train;
+  profile -> infer;
+  train -> filter;
+  infer -> filter;
+  filter -> rank;
+  rank -> recommend [color="#2C8C69"];
+  filter -> infeasible [color="#B44A4A"];
+  rank -> sizing;
+  rank -> power;
+  rank -> cost;
+  rank -> risk;
+  sizing -> reports;
+  power -> reports;
+  cost -> reports;
+  risk -> reports;
+  recommend -> reports;
+  infeasible -> reports;
+  catalog -> existing [style=dashed, color="#888888"];
+  upgrade -> reports [style=dashed, color="#888888"];
+}

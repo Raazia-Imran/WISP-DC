@@ -1,0 +1,17 @@
+Original_Formula_ID,Canonical_Formula_ID,Referenced_Catalogue,Mapping_Status,Reason
+MEM-P1-F01,MEM-P1-F01,Memory,RETAINED_CANONICAL,Genuinely belonging to the Memory Formula Book.
+CPU-P3-F01,CPU-P3-F01,CPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+CPU-P3-F02,CPU-P3-F02,CPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+CPU-P3-F03,CPU-P3-F03,CPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+GPU-P2-F01,GPU-P2-F01,GPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+GPU-P2-F02,GPU-P2-F02,GPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+GPU-P2-F03,GPU-P2-F03,GPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+GPU-P2-F04,GPU-P2-F04,GPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+GPU-P2-F05,GPU-P2-F05,GPU,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-010,WRR-F-010,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-016,WRR-F-016,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-018,WRR-F-018,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-019,WRR-F-019,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-020,WRR-F-020,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-025,WRR-F-025,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.
+WRR-F-084,WRR-F-084,Workload,EXTERNAL_REFERENCE_PRESERVED,Referenced by Memory rules; intentionally not copied into the Memory Formula Book.

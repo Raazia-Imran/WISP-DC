@@ -1,0 +1,26 @@
+QA_ID,Check,Finding,Status
+QA-F-001,Catalogue dimensions,AI SERVER(5).CSV verified as 32 records and 212 fields.,PASS
+QA-F-002,Catalogue scope,"32 servers treated as the current project baseline, not as an exhaustive market inventory.",PASS
+QA-F-003,Existing rule preservation,All 28 existing Rule_IDs SRV-001 through SRV-028 are retained unchanged.,PASS
+QA-F-004,New-rule uniqueness,SRV-029 is unique and no duplicate Rule_ID or duplicate rule name was introduced.,PASS
+QA-F-005,Server domain boundary,"SRV-029 is a server integration/topology rule; it does not reproduce CPU, GPU, memory, storage, network, or component-compatibility rules.",PASS
+QA-F-006,Catalogue field validation,All catalogue fields referenced by SRV-029 exist in AI SERVER(5).CSV; missing structured topology information is handled through existing catalogue gaps.,PASS
+QA-F-007,Research/vendor evidence review,Reviewed relevant multi-resource placement/resource-allocation literature and authoritative server/GPU platform documentation; no other genuinely new server-level rule was identified beyond topology-aware configuration.,PASS
+QA-F-008,Vendor specificity,Vendor guidance is retained as configuration guidance and is not generalized into universal hardware thresholds.,PASS
+QA-F-009,Benchmark generalization,No benchmark result was converted into a universal server threshold.,PASS
+QA-F-010,Threshold audit,"No arbitrary utilization, CPU/GPU ratio, GPU/server ratio, memory/server ratio, power, storage, network, or performance threshold was introduced.",PASS
+QA-F-011,Evidence sufficiency,"Where structured topology evidence is missing, SRV-029 returns INSUFFICIENT EVIDENCE rather than assuming topology.",PASS
+QA-F-012,Existing formula preservation,SRV-F-001 is retained unchanged.,PASS
+QA-F-013,Formula server-level status,SRV-F-001 remains a server-level Boolean integration gate and does not duplicate component formulas.,PASS
+QA-F-014,Formula derivation clarity,"SRV-F-001 is explicitly documented as derived DSS integration logic, not as a published equation.",PASS
+QA-F-015,Formula duplication audit,No genuinely new server-level formula was found; component-level formulas are not duplicated.,PASS
+QA-F-016,Source traceability,Every final rule has source IDs and evidence locations; SRV-029 adds the exact NVIDIA guide section/table/line context.,PASS
+QA-F-017,Catalogue gaps,"Only genuine catalogue/evidence gaps are retained; no fabricated topology, NUMA, IOPS, latency, or benchmark fields were added.",PASS
+QA-F-018,Resource contention coverage,"Existing SRV-005, SRV-006 and SRV-028 cover multi-resource feasibility/contention; no duplicate contention rule was added.",PASS
+QA-F-019,Training coverage,Existing SRV-023 covers multi-resource/fabric training suitability; SRV-029 adds only the distinct topology/locality verification layer.,PASS
+QA-F-020,Inference coverage,Existing SRV-024 and SRV-025 cover inference context and benchmark evidence; SRV-029 adds topology verification only where locality is material.,PASS
+QA-F-021,Power/cooling/rack coverage,"Existing SRV-016 through SRV-022 cover server deployment power, PSU, cooling, thermal environment and rack constraints; no duplicate rule added.",PASS
+QA-F-022,Configuration coverage,Existing SRV-007 through SRV-015 cover capacity/configuration/interconnect compatibility; SRV-029 addresses the remaining topology/locality evidence dimension.,PASS
+QA-F-023,Research finding classification,Relevant research findings about multi-resource placement remain supporting context for existing rules; no paper-specific benchmark behavior was promoted to a universal rule.,PASS
+QA-F-024,Final rule count,28 existing + 1 genuinely new server-level rule = 29 final rules.,PASS
+QA-F-025,Final formula count,1 existing server-level formula + 0 new formulas = 1 final formula.,PASS

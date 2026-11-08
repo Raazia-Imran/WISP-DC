@@ -1,0 +1,41 @@
+Statistic,Count,Scope,QA_Interpretation
+Raw rules per source file,53,workload(2).csv,Canonical rule input.
+Raw rules per source file,20,training_resource_req(2).csv,Canonical rule input.
+Raw rules per source file,22,DSS_inference_resource_requirement_complete(3).csv,Canonical rule input.
+Raw rules per source file,22,DSS_GPU_resource_scaling_expansion_complete(3).csv,Canonical rule input.
+Raw rules per source file,18,DSS_network_distributed_communication_expansion_complete(3).csv,Canonical rule input.
+Raw rules per source file,18,DSS_storage_IO_expansion_complete(3).csv,Canonical rule input.
+Raw rules per source file,18,DSS_system_memory_host_RAM_expansion_complete(3).csv,Canonical rule input.
+Raw rules per source file,18,DSS_CPU_resource_requirement_expansion_complete(3).csv,Canonical rule input.
+Raw rules per source file,20,DSS_cross_resource_dependency_expansion_complete.csv,Canonical rule input.
+Total raw rules,209,Master,Sum of canonical rule inputs.
+Final unique rules,209,Master,All retained.
+Exact duplicate rule content,0,Master,No exact normalized rule-content duplicates.
+Original Rule_ID conflict groups,8,Master,Distinct definitions retained.
+Conflicting rule rows retained,16,Master,Across 8 conflicting IDs.
+Semantic duplicate findings preserved,39,Historical overlap,From the existing historical overlap report.
+Merged rules,0,Master,No rule merges.
+Raw formulas per source file,2,workload_classification_formulas.csv,Formula source artifact.
+Raw formulas per source file,9,training_resource_formulas.csv,Formula source artifact.
+Raw formulas per source file,8,DSS_inference_resource_formulas.csv,Formula source artifact.
+Raw formulas per source file,7,DSS_GPU_resource_scaling_formulas.csv,Formula source artifact.
+Raw formulas per source file,14,DSS_network_distributed_communication_formulas.csv,Formula source artifact.
+Raw formulas per source file,14,DSS_storage_IO_formulas.csv,Formula source artifact.
+Raw formulas per source file,14,DSS_system_memory_host_RAM_formulas.csv,Formula source artifact.
+Raw formulas per source file,9,DSS_CPU_resource_requirement_formulas.csv,Formula source artifact.
+Raw formulas per source file,14,DSS_cross_resource_dependency_formulas.csv,Formula source artifact.
+Embedded workload formulas,6,workload(2).csv,Embedded formula records.
+Raw formula records,97,Formula Book,Before exact duplicate consolidation.
+Final formula records,96,Formula Book,After exact duplicate consolidation.
+Exact duplicate formulas merged,1,Formula Book,NCR-F-12 / CRD-F-11 expression duplicate.
+Raw source-register records,107,Source Register,Across 9 source-register files.
+Final unique source identities,88,Source Register,Deduplicated by normalized title + official URL.
+Explicitly labeled research sources,1,Source Register,Only explicitly labeled Research sources are counted; untyped titles are not inferred.
+Rule Book records,209,Rule Book,One per master rule.
+Classification records,297,Classification,209 rule + 88 source classifications.
+QA records,25,QA,Master consolidation QA.
+Existing gap records,92,Gaps,All supplied domain/historical gap files.
+Master consolidation gap records,94,Gaps,Includes two QA-derived source-mapping gaps.
+Overlap records,112,Overlap,Domain overlap plus historical duplicate/overlap report.
+Canonical rule input files,9,Master,Nine canonical rule inputs.
+Relevant input files identified,81,Input Inventory,Includes working/duplicate/historical artifacts.

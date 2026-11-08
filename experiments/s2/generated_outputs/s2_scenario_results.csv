@@ -1,0 +1,7 @@
+case_id,required_output_tokens_per_s,max_accelerators,recommendation,status,expected_recommendation,expected_status,matches_expected,feasible_configurations,selection_rule
+T1,4000.0,1,HPE-GH200-1,Feasible,HPE-GH200-1,Feasible,True,HPE-GH200-1,"min accelerators, then min throughput surplus"
+T2,8000.0,2,HPE-GH200-2,Feasible,HPE-GH200-2,Feasible,True,HPE-GH200-2,"min accelerators, then min throughput surplus"
+T3,20000.0,2,None,Infeasible,None,Infeasible,True,,"min accelerators, then min throughput surplus"
+T4,20000.0,8,HPE-H100-8,Feasible,HPE-H100-8,Feasible,True,HPE-H100-8;HPE-H200-8,"min accelerators, then min throughput surplus"
+T5,30000.0,8,HPE-H100-8,Feasible,HPE-H100-8,Feasible,True,HPE-H100-8;HPE-H200-8,"min accelerators, then min throughput surplus"
+T6,32000.0,8,None,Infeasible,None,Infeasible,True,,"min accelerators, then min throughput surplus"

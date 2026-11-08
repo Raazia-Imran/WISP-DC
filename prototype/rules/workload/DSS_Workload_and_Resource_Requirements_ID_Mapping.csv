@@ -1,0 +1,307 @@
+Object_Type,Original_File,Original_Row,Original_ID,Master_ID,Mapping_Type,Canonical_ID,Action,Reason,Notes
+RULE,workload(2).csv,2,WLR-WC-06,WRR-001,RETAINED,WRR-001,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,3,WLR-WC-07,WRR-002,RETAINED,WRR-002,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,4,WLR-WC-08,WRR-003,RETAINED,WRR-003,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,5,WLR-WC-09,WRR-004,RETAINED,WRR-004,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,6,WLR-WC-10,WRR-005,RETAINED,WRR-005,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,7,WLR-WC-11,WRR-006,RETAINED,WRR-006,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,8,WLR-WC-12,WRR-007,RETAINED,WRR-007,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,9,WLR-WC-13,WRR-008,RETAINED,WRR-008,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,10,WLR-WC-14,WRR-009,RETAINED,WRR-009,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,11,WLR-WC-15,WRR-010,RETAINED,WRR-010,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,12,WLR-WC-16,WRR-011,RETAINED,WRR-011,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,13,WLR-WC-17,WRR-012,RETAINED,WRR-012,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,14,WLR-WC-18,WRR-013,RETAINED,WRR-013,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,15,WLR-WC-19,WRR-014,RETAINED,WRR-014,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,16,WLR-WC-20,WRR-015,RETAINED,WRR-015,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,17,WLR-WC-21,WRR-016,RETAINED,WRR-016,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,18,WLR-WC-22,WRR-017,RETAINED,WRR-017,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,19,WLR-WC-23,WRR-018,RETAINED,WRR-018,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,20,WLR-WC-24,WRR-019,RETAINED,WRR-019,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,21,WLR-WC-25,WRR-020,RETAINED,WRR-020,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,22,WLR-WC-26,WRR-021,RETAINED,WRR-021,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,23,WLR-WC-27,WRR-022,RETAINED,WRR-022,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,24,WLR-WC-28,WRR-023,RETAINED,WRR-023,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,25,WLR-WC-29,WRR-024,RETAINED,WRR-024,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,27,WLR-WC-01,WRR-025,RETAINED,WRR-025,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,28,WLR-WC-02,WRR-026,RETAINED,WRR-026,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,29,WLR-WC-03,WRR-027,RETAINED,WRR-027,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,30,WLR-WC-04,WRR-028,RETAINED,WRR-028,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,31,WLR-WC-05,WRR-029,RETAINED,WRR-029,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,32,WLR-GPU-01,WRR-030,RETAINED,WRR-030,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,33,WLR-GPU-02,WRR-031,RETAINED,WRR-031,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,34,WLR-GPU-03,WRR-032,RETAINED,WRR-032,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,35,WLR-GPU-04,WRR-033,RETAINED,WRR-033,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,36,WLR-GPU-05,WRR-034,RETAINED,WRR-034,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,37,WLR-CPU-01,WRR-035,RETAINED,WRR-035,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,38,WLR-MEM-01,WRR-036,RETAINED,WRR-036,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,39,WLR-STOR-01,WRR-037,RETAINED,WRR-037,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,40,WLR-STOR-02,WRR-038,RETAINED,WRR-038,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,41,WLR-STOR-03,WRR-039,RETAINED,WRR-039,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,42,WLR-NET-01,WRR-040,RETAINED,WRR-040,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,43,WLR-NET-02,WRR-041,RETAINED,WRR-041,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,44,WLR-NET-03,WRR-042,RETAINED,WRR-042,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,45,WLR-BENCH-01,WRR-043,RETAINED,WRR-043,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,47,WLR-WC-01,WRR-044,RETAINED,WRR-044,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,48,WLR-WC-02,WRR-045,RETAINED,WRR-045,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,49,WLR-GPU-01,WRR-046,RETAINED,WRR-046,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,50,WLR-GPU-02,WRR-047,RETAINED,WRR-047,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,51,WLR-WC-03,WRR-048,RETAINED,WRR-048,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,52,WLR-GPU-03,WRR-049,RETAINED,WRR-049,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,53,WLR-NET-01,WRR-050,RETAINED,WRR-050,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,54,WLR-STOR-01,WRR-051,RETAINED,WRR-051,RETAIN,Distinct source rule retained; canonical master ID assigned.,Conflicting original Rule_ID preserved as a separate master rule.
+RULE,workload(2).csv,60,WLR-F-05,WRR-052,RETAINED,WRR-052,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,workload(2).csv,61,WLR-F-06,WRR-053,RETAINED,WRR-053,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,2,TRR-01,WRR-054,RETAINED,WRR-054,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,3,TRR-02,WRR-055,RETAINED,WRR-055,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,4,TRR-03,WRR-056,RETAINED,WRR-056,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,5,TRR-04,WRR-057,RETAINED,WRR-057,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,6,TRR-05,WRR-058,RETAINED,WRR-058,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,7,TRR-06,WRR-059,RETAINED,WRR-059,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,8,TRR-07,WRR-060,RETAINED,WRR-060,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,9,TRR-08,WRR-061,RETAINED,WRR-061,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,10,TRR-09,WRR-062,RETAINED,WRR-062,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,11,TRR-10,WRR-063,RETAINED,WRR-063,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,12,TRR-11,WRR-064,RETAINED,WRR-064,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,13,TRR-12,WRR-065,RETAINED,WRR-065,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,14,TRR-13,WRR-066,RETAINED,WRR-066,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,15,TRR-14,WRR-067,RETAINED,WRR-067,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,16,TRR-15,WRR-068,RETAINED,WRR-068,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,17,TRR-16,WRR-069,RETAINED,WRR-069,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,18,TRR-17,WRR-070,RETAINED,WRR-070,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,19,TRR-18,WRR-071,RETAINED,WRR-071,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,20,TRR-19,WRR-072,RETAINED,WRR-072,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,training_resource_req(2).csv,21,TRR-20,WRR-073,RETAINED,WRR-073,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,34,IRR-01,WRR-074,RETAINED,WRR-074,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,35,IRR-02,WRR-075,RETAINED,WRR-075,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,36,IRR-03,WRR-076,RETAINED,WRR-076,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,37,IRR-04,WRR-077,RETAINED,WRR-077,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,38,IRR-05,WRR-078,RETAINED,WRR-078,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,39,IRR-06,WRR-079,RETAINED,WRR-079,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,40,IRR-07,WRR-080,RETAINED,WRR-080,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,41,IRR-08,WRR-081,RETAINED,WRR-081,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,42,IRR-09,WRR-082,RETAINED,WRR-082,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,43,IRR-10,WRR-083,RETAINED,WRR-083,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,44,IRR-11,WRR-084,RETAINED,WRR-084,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,45,IRR-12,WRR-085,RETAINED,WRR-085,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,46,IRR-13,WRR-086,RETAINED,WRR-086,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,47,IRR-14,WRR-087,RETAINED,WRR-087,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,48,IRR-15,WRR-088,RETAINED,WRR-088,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,49,IRR-16,WRR-089,RETAINED,WRR-089,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,50,IRR-17,WRR-090,RETAINED,WRR-090,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,51,IRR-18,WRR-091,RETAINED,WRR-091,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,52,IRR-19,WRR-092,RETAINED,WRR-092,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,53,IRR-20,WRR-093,RETAINED,WRR-093,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,54,IRR-21,WRR-094,RETAINED,WRR-094,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_inference_resource_requirement_complete(3).csv,55,IRR-22,WRR-095,RETAINED,WRR-095,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,2,GRS-01,WRR-096,RETAINED,WRR-096,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,3,GRS-02,WRR-097,RETAINED,WRR-097,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,4,GRS-03,WRR-098,RETAINED,WRR-098,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,5,GRS-04,WRR-099,RETAINED,WRR-099,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,6,GRS-05,WRR-100,RETAINED,WRR-100,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,7,GRS-06,WRR-101,RETAINED,WRR-101,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,8,GRS-07,WRR-102,RETAINED,WRR-102,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,9,GRS-08,WRR-103,RETAINED,WRR-103,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,10,GRS-09,WRR-104,RETAINED,WRR-104,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,11,GRS-10,WRR-105,RETAINED,WRR-105,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,12,GRS-11,WRR-106,RETAINED,WRR-106,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,13,GRS-12,WRR-107,RETAINED,WRR-107,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,14,GRS-13,WRR-108,RETAINED,WRR-108,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,15,GRS-14,WRR-109,RETAINED,WRR-109,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,16,GRS-15,WRR-110,RETAINED,WRR-110,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,17,GRS-16,WRR-111,RETAINED,WRR-111,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,18,GRS-17,WRR-112,RETAINED,WRR-112,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,19,GRS-18,WRR-113,RETAINED,WRR-113,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,20,GRS-19,WRR-114,RETAINED,WRR-114,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,21,GRS-20,WRR-115,RETAINED,WRR-115,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,22,GRS-21,WRR-116,RETAINED,WRR-116,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_GPU_resource_scaling_expansion_complete(3).csv,23,GRS-22,WRR-117,RETAINED,WRR-117,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,2,NCR-01,WRR-118,RETAINED,WRR-118,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,3,NCR-02,WRR-119,RETAINED,WRR-119,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,4,NCR-03,WRR-120,RETAINED,WRR-120,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,5,NCR-04,WRR-121,RETAINED,WRR-121,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,6,NCR-05,WRR-122,RETAINED,WRR-122,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,7,NCR-06,WRR-123,RETAINED,WRR-123,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,8,NCR-07,WRR-124,RETAINED,WRR-124,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,9,NCR-08,WRR-125,RETAINED,WRR-125,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,10,NCR-09,WRR-126,RETAINED,WRR-126,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,11,NCR-10,WRR-127,RETAINED,WRR-127,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,12,NCR-11,WRR-128,RETAINED,WRR-128,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,13,NCR-12,WRR-129,RETAINED,WRR-129,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,14,NCR-13,WRR-130,RETAINED,WRR-130,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,15,NCR-14,WRR-131,RETAINED,WRR-131,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,16,NCR-15,WRR-132,RETAINED,WRR-132,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,17,NCR-16,WRR-133,RETAINED,WRR-133,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,18,NCR-17,WRR-134,RETAINED,WRR-134,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_network_distributed_communication_expansion_complete(3).csv,19,NCR-18,WRR-135,RETAINED,WRR-135,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,2,SIR-01,WRR-136,RETAINED,WRR-136,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,3,SIR-02,WRR-137,RETAINED,WRR-137,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,4,SIR-03,WRR-138,RETAINED,WRR-138,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,5,SIR-04,WRR-139,RETAINED,WRR-139,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,6,SIR-05,WRR-140,RETAINED,WRR-140,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,7,SIR-06,WRR-141,RETAINED,WRR-141,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,8,SIR-07,WRR-142,RETAINED,WRR-142,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,9,SIR-08,WRR-143,RETAINED,WRR-143,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,10,SIR-09,WRR-144,RETAINED,WRR-144,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,11,SIR-10,WRR-145,RETAINED,WRR-145,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,12,SIR-11,WRR-146,RETAINED,WRR-146,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,13,SIR-12,WRR-147,RETAINED,WRR-147,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,14,SIR-13,WRR-148,RETAINED,WRR-148,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,15,SIR-14,WRR-149,RETAINED,WRR-149,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,16,SIR-15,WRR-150,RETAINED,WRR-150,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,17,SIR-16,WRR-151,RETAINED,WRR-151,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,18,SIR-17,WRR-152,RETAINED,WRR-152,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_storage_IO_expansion_complete(3).csv,19,SIR-18,WRR-153,RETAINED,WRR-153,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,2,SMR-01,WRR-154,RETAINED,WRR-154,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,3,SMR-02,WRR-155,RETAINED,WRR-155,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,4,SMR-03,WRR-156,RETAINED,WRR-156,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,5,SMR-04,WRR-157,RETAINED,WRR-157,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,6,SMR-05,WRR-158,RETAINED,WRR-158,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,7,SMR-06,WRR-159,RETAINED,WRR-159,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,8,SMR-07,WRR-160,RETAINED,WRR-160,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,9,SMR-08,WRR-161,RETAINED,WRR-161,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,10,SMR-09,WRR-162,RETAINED,WRR-162,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,11,SMR-10,WRR-163,RETAINED,WRR-163,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,12,SMR-11,WRR-164,RETAINED,WRR-164,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,13,SMR-12,WRR-165,RETAINED,WRR-165,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,14,SMR-13,WRR-166,RETAINED,WRR-166,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,15,SMR-14,WRR-167,RETAINED,WRR-167,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,16,SMR-15,WRR-168,RETAINED,WRR-168,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,17,SMR-16,WRR-169,RETAINED,WRR-169,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,18,SMR-17,WRR-170,RETAINED,WRR-170,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_system_memory_host_RAM_expansion_complete(3).csv,19,SMR-18,WRR-171,RETAINED,WRR-171,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,2,CRR-01,WRR-172,RETAINED,WRR-172,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,3,CRR-02,WRR-173,RETAINED,WRR-173,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,4,CRR-03,WRR-174,RETAINED,WRR-174,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,5,CRR-04,WRR-175,RETAINED,WRR-175,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,6,CRR-05,WRR-176,RETAINED,WRR-176,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,7,CRR-06,WRR-177,RETAINED,WRR-177,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,8,CRR-07,WRR-178,RETAINED,WRR-178,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,9,CRR-08,WRR-179,RETAINED,WRR-179,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,10,CRR-09,WRR-180,RETAINED,WRR-180,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,11,CRR-10,WRR-181,RETAINED,WRR-181,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,12,CRR-11,WRR-182,RETAINED,WRR-182,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,13,CRR-12,WRR-183,RETAINED,WRR-183,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,14,CRR-13,WRR-184,RETAINED,WRR-184,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,15,CRR-14,WRR-185,RETAINED,WRR-185,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,16,CRR-15,WRR-186,RETAINED,WRR-186,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,17,CRR-16,WRR-187,RETAINED,WRR-187,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,18,CRR-17,WRR-188,RETAINED,WRR-188,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_CPU_resource_requirement_expansion_complete(3).csv,19,CRR-18,WRR-189,RETAINED,WRR-189,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,2,CRD-01,WRR-190,RETAINED,WRR-190,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,3,CRD-02,WRR-191,RETAINED,WRR-191,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,4,CRD-03,WRR-192,RETAINED,WRR-192,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,5,CRD-04,WRR-193,RETAINED,WRR-193,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,6,CRD-05,WRR-194,RETAINED,WRR-194,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,7,CRD-06,WRR-195,RETAINED,WRR-195,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,8,CRD-07,WRR-196,RETAINED,WRR-196,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,9,CRD-08,WRR-197,RETAINED,WRR-197,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,10,CRD-09,WRR-198,RETAINED,WRR-198,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,11,CRD-10,WRR-199,RETAINED,WRR-199,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,12,CRD-11,WRR-200,RETAINED,WRR-200,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,13,CRD-12,WRR-201,RETAINED,WRR-201,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,14,CRD-13,WRR-202,RETAINED,WRR-202,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,15,CRD-14,WRR-203,RETAINED,WRR-203,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,16,CRD-15,WRR-204,RETAINED,WRR-204,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,17,CRD-16,WRR-205,RETAINED,WRR-205,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,18,CRD-17,WRR-206,RETAINED,WRR-206,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,19,CRD-18,WRR-207,RETAINED,WRR-207,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,20,CRD-19,WRR-208,RETAINED,WRR-208,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+RULE,DSS_cross_resource_dependency_expansion_complete.csv,21,CRD-20,WRR-209,RETAINED,WRR-209,RETAIN,Distinct source rule retained; canonical master ID assigned.,
+FORMULA,workload(2).csv,55,WLR-F-01,WRR-F-001,RETAINED,WRR-F-001,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload(2).csv,56,WLR-F-02,WRR-F-002,RETAINED,WRR-F-002,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload(2).csv,57,WLR-F-03,WRR-F-003,RETAINED,WRR-F-003,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload(2).csv,58,WLR-F-04,WRR-F-004,RETAINED,WRR-F-004,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload(2).csv,60,WLR-F-05,WRR-F-005,RETAINED,WRR-F-005,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload(2).csv,61,WLR-F-06,WRR-F-006,RETAINED,WRR-F-006,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload_classification_formulas.csv,2,WLR-F-05,WRR-F-007,RETAINED,WRR-F-007,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,workload_classification_formulas.csv,3,WLR-F-06,WRR-F-008,RETAINED,WRR-F-008,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,2,WLR-F-05,WRR-F-009,RETAINED,WRR-F-009,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,3,WLR-F-06,WRR-F-010,RETAINED,WRR-F-010,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,4,WLR-F-07,WRR-F-011,RETAINED,WRR-F-011,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,5,WLR-F-08,WRR-F-012,RETAINED,WRR-F-012,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,6,WLR-F-09,WRR-F-013,RETAINED,WRR-F-013,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,7,WLR-F-10,WRR-F-014,RETAINED,WRR-F-014,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,8,WLR-F-11,WRR-F-015,RETAINED,WRR-F-015,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,9,WLR-F-12,WRR-F-016,RETAINED,WRR-F-016,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,training_resource_formulas.csv,10,WLR-F-13,WRR-F-017,RETAINED,WRR-F-017,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,2,IRR-F-01,WRR-F-018,RETAINED,WRR-F-018,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,3,IRR-F-02,WRR-F-019,RETAINED,WRR-F-019,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,4,IRR-F-03,WRR-F-020,RETAINED,WRR-F-020,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,5,IRR-F-04,WRR-F-021,RETAINED,WRR-F-021,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,6,IRR-F-05,WRR-F-022,RETAINED,WRR-F-022,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,7,IRR-F-06,WRR-F-023,RETAINED,WRR-F-023,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,8,IRR-F-07,WRR-F-024,RETAINED,WRR-F-024,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_inference_resource_formulas.csv,9,IRR-F-08,WRR-F-025,RETAINED,WRR-F-025,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,2,GRS-F-01,WRR-F-026,RETAINED,WRR-F-026,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,3,GRS-F-02,WRR-F-027,RETAINED,WRR-F-027,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,4,GRS-F-03,WRR-F-028,RETAINED,WRR-F-028,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,5,GRS-F-04,WRR-F-029,RETAINED,WRR-F-029,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,6,GRS-F-05,WRR-F-030,RETAINED,WRR-F-030,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,7,GRS-F-06,WRR-F-031,RETAINED,WRR-F-031,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_GPU_resource_scaling_formulas.csv,8,GRS-F-07,WRR-F-032,RETAINED,WRR-F-032,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,2,NCR-F-01,WRR-F-033,RETAINED,WRR-F-033,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,3,NCR-F-02,WRR-F-034,RETAINED,WRR-F-034,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,4,NCR-F-03,WRR-F-035,RETAINED,WRR-F-035,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,5,NCR-F-04,WRR-F-036,RETAINED,WRR-F-036,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,6,NCR-F-05,WRR-F-037,RETAINED,WRR-F-037,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,7,NCR-F-06,WRR-F-038,RETAINED,WRR-F-038,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,8,NCR-F-07,WRR-F-039,RETAINED,WRR-F-039,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,9,NCR-F-08,WRR-F-040,RETAINED,WRR-F-040,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,10,NCR-F-09,WRR-F-041,RETAINED,WRR-F-041,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,11,NCR-F-10,WRR-F-042,RETAINED,WRR-F-042,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,12,NCR-F-11,WRR-F-043,RETAINED,WRR-F-043,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,13,NCR-F-12,WRR-F-044,MERGED_EXACT_DUPLICATE,WRR-F-044,MERGE_TO_CANONICAL,Exact same normalized formula expression.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,14,NCR-F-13,WRR-F-045,RETAINED,WRR-F-045,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_network_distributed_communication_formulas.csv,15,NCR-F-14,WRR-F-046,RETAINED,WRR-F-046,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,2,SIR-F-01,WRR-F-047,RETAINED,WRR-F-047,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,3,SIR-F-02,WRR-F-048,RETAINED,WRR-F-048,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,4,SIR-F-03,WRR-F-049,RETAINED,WRR-F-049,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,5,SIR-F-04,WRR-F-050,RETAINED,WRR-F-050,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,6,SIR-F-05,WRR-F-051,RETAINED,WRR-F-051,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,7,SIR-F-06,WRR-F-052,RETAINED,WRR-F-052,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,8,SIR-F-07,WRR-F-053,RETAINED,WRR-F-053,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,9,SIR-F-08,WRR-F-054,RETAINED,WRR-F-054,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,10,SIR-F-09,WRR-F-055,RETAINED,WRR-F-055,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,11,SIR-F-10,WRR-F-056,RETAINED,WRR-F-056,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,12,SIR-F-11,WRR-F-057,RETAINED,WRR-F-057,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,13,SIR-F-12,WRR-F-058,RETAINED,WRR-F-058,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,14,SIR-F-13,WRR-F-059,RETAINED,WRR-F-059,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_storage_IO_formulas.csv,15,SIR-F-14,WRR-F-060,RETAINED,WRR-F-060,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,2,SMR-F-01,WRR-F-061,RETAINED,WRR-F-061,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,3,SMR-F-02,WRR-F-062,RETAINED,WRR-F-062,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,4,SMR-F-03,WRR-F-063,RETAINED,WRR-F-063,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,5,SMR-F-04,WRR-F-064,RETAINED,WRR-F-064,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,6,SMR-F-05,WRR-F-065,RETAINED,WRR-F-065,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,7,SMR-F-06,WRR-F-066,RETAINED,WRR-F-066,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,8,SMR-F-07,WRR-F-067,RETAINED,WRR-F-067,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,9,SMR-F-08,WRR-F-068,RETAINED,WRR-F-068,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,10,SMR-F-09,WRR-F-069,RETAINED,WRR-F-069,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,11,SMR-F-10,WRR-F-070,RETAINED,WRR-F-070,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,12,SMR-F-11,WRR-F-071,RETAINED,WRR-F-071,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,13,SMR-F-12,WRR-F-072,RETAINED,WRR-F-072,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,14,SMR-F-13,WRR-F-073,RETAINED,WRR-F-073,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_system_memory_host_RAM_formulas.csv,15,SMR-F-14,WRR-F-074,RETAINED,WRR-F-074,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,2,CRR-F-01,WRR-F-075,RETAINED,WRR-F-075,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,3,CRR-F-02,WRR-F-076,RETAINED,WRR-F-076,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,4,CRR-F-03,WRR-F-077,RETAINED,WRR-F-077,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,5,CRR-F-04,WRR-F-078,RETAINED,WRR-F-078,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,6,CRR-F-05,WRR-F-079,RETAINED,WRR-F-079,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,7,CRR-F-06,WRR-F-080,RETAINED,WRR-F-080,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,8,CRR-F-07,WRR-F-081,RETAINED,WRR-F-081,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,9,CRR-F-08,WRR-F-082,RETAINED,WRR-F-082,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_CPU_resource_requirement_formulas.csv,10,CRR-F-09,WRR-F-083,RETAINED,WRR-F-083,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,2,CRD-F-01,WRR-F-084,RETAINED,WRR-F-084,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,3,CRD-F-02,WRR-F-085,RETAINED,WRR-F-085,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,4,CRD-F-03,WRR-F-086,RETAINED,WRR-F-086,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,5,CRD-F-04,WRR-F-087,RETAINED,WRR-F-087,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,6,CRD-F-05,WRR-F-088,RETAINED,WRR-F-088,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,7,CRD-F-06,WRR-F-089,RETAINED,WRR-F-089,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,8,CRD-F-07,WRR-F-090,RETAINED,WRR-F-090,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,9,CRD-F-08,WRR-F-091,RETAINED,WRR-F-091,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,10,CRD-F-09,WRR-F-092,RETAINED,WRR-F-092,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,11,CRD-F-10,WRR-F-093,RETAINED,WRR-F-093,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,12,CRD-F-11,WRR-F-044,MERGED_EXACT_DUPLICATE,WRR-F-044,MERGE_TO_CANONICAL,Exact same normalized formula expression.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,13,CRD-F-12,WRR-F-094,RETAINED,WRR-F-094,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,14,CRD-F-13,WRR-F-095,RETAINED,WRR-F-095,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.
+FORMULA,DSS_cross_resource_dependency_formulas.csv,15,CRD-F-14,WRR-F-096,RETAINED,WRR-F-096,RETAIN,Distinct formula record retained.,Formula ID collisions across domains are preserved through file/context-aware mapping.

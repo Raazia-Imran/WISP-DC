@@ -1,0 +1,29 @@
+QA_ID,Check,Status,Details
+CPU-RQA-001,All 47 existing CPU rules inspected,PASS,47 finalized rules inspected.
+CPU-RQA-002,Existing Rule IDs preserved,PASS,All finalized Rule_IDs retained.
+CPU-RQA-003,No rules deleted,PASS,Additive evidence audit only.
+CPU-RQA-004,No rules renumbered,PASS,No Rule_ID changes.
+CPU-RQA-005,Research papers genuinely evaluated,PASS,10 papers/benchmark sources evaluated.
+CPU-RQA-006,Research evidence relevant,PASS,Mappings restricted to materially relevant papers.
+CPU-RQA-007,Exact location recorded,PASS,Pages/sections/benchmark locations recorded.
+CPU-RQA-008,No overgeneralization,PASS,Study-specific limitations retained.
+CPU-RQA-009,Vendor vs research distinguished,PASS,Separate source tiers and statuses.
+CPU-RQA-010,Benchmark vs research distinguished,PASS,MLPerf classified as benchmark/research methodology.
+CPU-RQA-011,No unsupported universal thresholds,PASS,No new numeric threshold introduced.
+CPU-RQA-012,No universal CPU utilization threshold,PASS,None introduced.
+CPU-RQA-013,No universal cores/GPU ratio,PASS,None introduced.
+CPU-RQA-014,No universal threads/GPU ratio,PASS,None introduced.
+CPU-RQA-015,No universal NUMA penalty,PASS,NUMA evidence remains contextual.
+CPU-RQA-016,No universal preprocessing-worker threshold,PASS,None introduced.
+CPU-RQA-017,Existing formulas preserved,PASS,39 formula records audited.
+CPU-RQA-018,No formulas invented,PASS,No new formula created.
+CPU-RQA-019,Formula provenance preserved,PASS,Original formula IDs/source fields retained.
+CPU-RQA-020,CPU catalogue fields not invented,PASS,No catalogue field added.
+CPU-RQA-021,Model used instead of CPU_Model,PASS,No CPU_Model introduced.
+CPU-RQA-022,No GPU rules duplicated,PASS,No GPU records added.
+CPU-RQA-023,No Workload rules duplicated,PASS,No Workload rules added.
+CPU-RQA-024,No Compatibility rules duplicated,PASS,No compatibility records added.
+CPU-RQA-025,No silent corrections,PASS,Baseline rules were not rewritten.
+CPU-RQA-026,No fabricated sources,PASS,Research sources verified by bibliographic/official records.
+CPU-RQA-027,Research gaps documented,PASS,15 material gaps documented.
+CPU-RQA-028,Source traceability preserved,PASS,Rule → paper → location → evidence mapping created.

@@ -1,0 +1,21 @@
+Original_Part,Original_Formula_ID,Canonical_Formula_ID,Mapping_Type,Reason,Duplicate_Group,Status,Notes
+1,RACK-F-001,RACK-F-001,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Derived aggregation formula.
+1,RACK-F-002,RACK-F-002,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Deployment-state formula.
+1,RACK-F-003,RACK-F-003,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Residual-capacity formula.
+1,RACK-F-004,RACK-F-004,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Integer lower-bound formula.
+1,RACK-F-005,RACK-F-005,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Load aggregation formula.
+1,RACK-F-006,RACK-F-006,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Comparison formula.
+1,RACK-F-007,RACK-F-007,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Dimensional comparison.
+1,RACK-F-008,RACK-F-008,RETAINED,Rack-owned formula retained from Part 1.,,RETAINED,Interface comparison.
+2,,,NO_NEW_FORMULA,Part explicitly records no new formulas.,,NOT_APPLICABLE,Part 1 formulas are referenced rather than recreated.
+3,,,NO_NEW_FORMULA,Part explicitly records no new formulas.,,NOT_APPLICABLE,No mathematically necessary new Part 3 formula was identified.
+4,NO-NEW-FORMULA-P4,,NO_NEW_FORMULA,Part explicitly records no new formulas.,,NOT_APPLICABLE,Existing Part 1 formulas RACK-F-001…RACK-F-008 remain outside Part 4 ownership.
+5,RACK-F-001,RACK-F-001,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-002,RACK-F-002,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-003,RACK-F-003,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-004,RACK-F-004,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-005,RACK-F-005,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-006,RACK-F-006,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-007,RACK-F-007,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,RACK-F-008,RACK-F-008,EXTERNAL_REFERENCE,Existing Part 1 Rack formula referenced by this part; not recreated.,,RETAINED,EXISTING FORMULA REFERENCE
+5,NO-NEW-FORMULA-P5,,NO_NEW_FORMULA,Part explicitly records no new formulas.,,NOT_APPLICABLE,Explicit no-new-formula record.

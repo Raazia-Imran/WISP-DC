@@ -1,0 +1,35 @@
+Section,Metric,Value
+RAW,Part 1 rules,18
+RAW,Part 2 rules,22
+RAW,Part 3 rules,22
+RAW,Part 4 rules,30
+RAW,Part 5 rules,24
+RAW,Raw total rules,116
+CONSOLIDATION,Exact duplicate rules,0
+CONSOLIDATION,Semantic duplicate rules,0
+CONSOLIDATION,Rules merged,0
+CONSOLIDATION,Rules removed,0
+CONSOLIDATION,Rules retained,116
+CONSOLIDATION,Final unique rules,116
+CONSOLIDATION,Rules requiring review,0
+CONSOLIDATION,Part 5 integration rules retained,24
+FORMULA,Raw formula records with IDs,14
+FORMULA,Exact formula duplicates,0
+FORMULA,Semantic formula duplicates,0
+FORMULA,Final Storage-owned formulas,4
+SOURCE,Raw source records,122
+SOURCE,Unique final sources,71
+SOURCE,Research sources (unique papers),24
+CATALOGUE,Unique catalogue fields,127
+GAPS,Consolidated catalogue/evidence gaps,40
+QA,QA checks,38
+QA,QA PASS,36
+QA,QA FAIL,0
+QA,QA LIMITATIONS,2
+VALIDATION,Validation A,35
+VALIDATION,Validation B,45
+VALIDATION,Validation C,36
+VALIDATION,Validation D,0
+VALIDATION,Unsupported universal thresholds,0
+VALIDATION,Project-defined assumptions,0
+VALIDATION,Research-supported rules,49

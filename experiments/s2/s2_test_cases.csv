@@ -1,0 +1,7 @@
+case_id,required_output_tokens_per_s,max_accelerators,max_ttft_s,max_tpot_s,required_rouge1,required_rouge2,required_rougeL,expected_recommendation,expected_status,input_class
+T1,4000,1,2.0,0.2,43.986888,21.814848,28.330038,HPE-GH200-1,Feasible,Declared experiment input
+T2,8000,2,2.0,0.2,43.986888,21.814848,28.330038,HPE-GH200-2,Feasible,Declared experiment input
+T3,20000,2,2.0,0.2,43.986888,21.814848,28.330038,None,Infeasible,Declared experiment input
+T4,20000,8,2.0,0.2,43.986888,21.814848,28.330038,HPE-H100-8,Feasible,Declared experiment input
+T5,30000,8,2.0,0.2,43.986888,21.814848,28.330038,HPE-H100-8,Feasible,Declared experiment input
+T6,32000,8,2.0,0.2,43.986888,21.814848,28.330038,None,Infeasible,Declared experiment input

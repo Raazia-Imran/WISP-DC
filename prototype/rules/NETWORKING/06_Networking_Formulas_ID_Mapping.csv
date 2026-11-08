@@ -1,0 +1,42 @@
+Original_Formula_ID,Canonical_Formula_ID,Ownership,Mapping_Type,Reason
+FORM-REF-001,WRR-F-033,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-002,WRR-F-034,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-003,WRR-F-035,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-004,WRR-F-036,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-005,WRR-F-037,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-006,WRR-F-038,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-007,WRR-F-039,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-008,WRR-F-040,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-009,WRR-F-041,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-010,WRR-F-042,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+FORM-REF-011,WRR-F-091,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Networking Part 1 references an existing Workload-owned formula; it is not copied into the Networking-owned formula catalogue.
+NO-NEW-FORMULAS,,NO FORMULA — NETWORKING RULE LAYER,NO_FORMULA_MARKER,Actual Part 2 formula file contains only a no-new-formulas marker; no Networking-owned formula was provided.
+NO-NEW-FORMULAS-P3,,NO FORMULA — NETWORKING RULE LAYER,NO_FORMULA_MARKER,Actual Part 3 formula file contains only a no-new-formulas marker; formula dependencies are external.
+,,NO FORMULA — NETWORKING RULE LAYER,NO_FORMULA_MARKER,Part 5 formula file contains a no-new-formulas row without a Formula_ID; no new ID is invented.
+REF-F-001,WRR-F-033,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-002,WRR-F-034,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-003,WRR-F-035,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-004,WRR-F-036,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-005,WRR-F-037,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-006,WRR-F-038,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-007,WRR-F-039,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-008,WRR-F-040,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-009,WRR-F-041,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-010,WRR-F-042,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+REF-F-011,WRR-F-091,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P3-001,WRR-F-033,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P3-002,WRR-F-035,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P3-003,WRR-F-041,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P3-004,WRR-F-042,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+P4-FREF-001,,NO FORMULA — NETWORKING RULE LAYER,NO_FORMULA_MARKER,Part 4 explicitly records no new formulas; reliability is rule/constraint/evidence based.
+FORM-REF-P5-001,WRR-F-033,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-002,WRR-F-034,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-003,WRR-F-035,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-004,WRR-F-036,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-005,WRR-F-037,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-006,WRR-F-038,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-007,WRR-F-039,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-008,WRR-F-040,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-009,WRR-F-041,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-010,WRR-F-042,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.
+FORM-REF-P5-011,WRR-F-091,EXTERNAL — WORKLOAD & RESOURCE,REFERENCE_EXISTING,Part-wise existing-formula reference; canonical formula remains outside Networking ownership.

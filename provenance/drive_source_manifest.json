@@ -1,0 +1,946 @@
+[
+  {
+    "path": "references/WISP_DC_Literature_Matrix.xlsx",
+    "source_name": "WISP_DC_Literature_Matrix.xlsx",
+    "source_drive_id": "1fhShAq_b-OSWzq5TzxXdBawtO8Axvx9K",
+    "source_url": "https://docs.google.com/spreadsheets/d/1fhShAq_b-OSWzq5TzxXdBawtO8Axvx9K/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "00b7a2d8b46bed2ccc1d10e0272957f69cd55be265b002ae3c38df69d69ab6f0",
+    "role": "research_support"
+  },
+  {
+    "path": "references/REFERENCES.xlsx",
+    "source_name": "REFERENCES",
+    "source_drive_id": "1QJG8QJ8fzCITzaOg2CmcX7S-rh8xpsf3EHDSQxDcSkE",
+    "source_url": "https://docs.google.com/spreadsheets/d/1QJG8QJ8fzCITzaOg2CmcX7S-rh8xpsf3EHDSQxDcSkE/edit?usp=drivesdk",
+    "sha256": "349d500b5243f0eeafa54dcd235a879e950ac569f06978aa650277a60d9588bb",
+    "role": "research_support"
+  },
+  {
+    "path": "archive/research_notes/DATA_FINDINGS.docx",
+    "source_name": "DATA_FINDINGS",
+    "source_drive_id": "14sqiHD7FLRobxXHoa3TMZs72c8QioJZ-Dixa_g4R7hE",
+    "source_url": "https://docs.google.com/document/d/14sqiHD7FLRobxXHoa3TMZs72c8QioJZ-Dixa_g4R7hE/edit?usp=drivesdk",
+    "sha256": "f9547059d9be81ae31f6f4f1b74b65bfcec249822d60ef17d35e4745646d24bf",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_packages/WISP_DC_S2_COMPLETE_PACKAGE.zip",
+    "source_name": "WISP_DC_S2_COMPLETE_PACKAGE.zip",
+    "source_drive_id": "1D-vA7o9x66j9Lb9BaUbze8fjzrLJWyaa",
+    "source_url": "https://drive.google.com/file/d/1D-vA7o9x66j9Lb9BaUbze8fjzrLJWyaa/view?usp=drivesdk",
+    "sha256": "8d488ef207c2a1ee1dbc10bc7eee08475b16aedb4c325ed3fab630cfefaa3b50",
+    "role": "source_archive"
+  },
+  {
+    "path": "workbooks/WISP_DC_S1_S2_FINAL_VALIDATED.xlsx",
+    "source_name": "WISP_DC_S1_S2_FINAL_VALIDATED.xlsx",
+    "source_drive_id": "13vDJ2QufAu3A0R-cEQ_bk3QwvgYslpa0",
+    "source_url": "https://docs.google.com/spreadsheets/d/13vDJ2QufAu3A0R-cEQ_bk3QwvgYslpa0/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "2148ae3e05b3d0050ed5fa109121dd2d3b4894cc203362df77df34ac21f8ec4d",
+    "role": "research_support"
+  },
+  {
+    "path": "archive/source_materials/s2_data_only_WISP_DC_S1_S2_EVIDENCE_PACKAGE_.xlsx",
+    "source_name": "s2_data_only_WISP_DC_S1_S2_EVIDENCE_PACKAGE .xlsx",
+    "source_drive_id": "1svpqIVuiNZheKYnNX65GfMP5BUKXQ3P3",
+    "source_url": "https://docs.google.com/spreadsheets/d/1svpqIVuiNZheKYnNX65GfMP5BUKXQ3P3/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "3f3a9e8f931f87a94578914f984fd5a8d0983b83ba3c0deb853ca7165c6a8dd6",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/s1_simulation_results.json",
+    "source_name": "s1_simulation_results.json",
+    "source_drive_id": "1Go9NlEPxXFBgDmXj3cCxNfhbENHMKUeJ",
+    "source_url": "https://drive.google.com/file/d/1Go9NlEPxXFBgDmXj3cCxNfhbENHMKUeJ/view?usp=drivesdk",
+    "sha256": "b8d4465569d2da7c92dfaf54ac332911205e8ae26dba9801ad86de5a9c354b86",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/s1_verified_data.json",
+    "source_name": "s1_verified_data.json",
+    "source_drive_id": "1dBDBv0zFOGke4qShSntbpNjLt6j7gpAG",
+    "source_url": "https://drive.google.com/file/d/1dBDBv0zFOGke4qShSntbpNjLt6j7gpAG/view?usp=drivesdk",
+    "sha256": "a42dca7b0973d8bc2b2beb49136b642642304c14fa14ba85b182df18522f9831",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/simulate_s1.py",
+    "source_name": "simulate_s1.py",
+    "source_drive_id": "1A0v2lByGsfWN_7QYQnl-MKEz8_jHctpR",
+    "source_url": "https://drive.google.com/file/d/1A0v2lByGsfWN_7QYQnl-MKEz8_jHctpR/view?usp=drivesdk",
+    "sha256": "216e664868317d96629e000a93a2ebc8ee86edd3fbdd418f676d712c31bee327",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/research_notes/WISP_DC_S2_Easy_Summary_and_Cost_Status.docx",
+    "source_name": "WISP_DC_S2_Easy_Summary_and_Cost_Status.docx",
+    "source_drive_id": "1jAl5rw3xbODsnCZM0hBiC_IrFDDIYfv_",
+    "source_url": "https://docs.google.com/document/d/1jAl5rw3xbODsnCZM0hBiC_IrFDDIYfv_/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "0e9e3aa1b258b8cfea4ec2594bfaa30c3b85757015ff76fa5b1fee40bf5490ee",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/final_WISP_DC_S1_FINALIZED_BUDGET.xlsm",
+    "source_name": "final_WISP_DC_S1_FINALIZED_BUDGET.xlsm",
+    "source_drive_id": "1g4YgxMOn3KRQ0HqN9Q2vjU3hakWkb0OX",
+    "source_url": "https://drive.google.com/file/d/1g4YgxMOn3KRQ0HqN9Q2vjU3hakWkb0OX/view?usp=drivesdk",
+    "sha256": "ab189eadbcd40e8afc30d84dc04b8f12371a676e3ea49a19d338b03d7a2c0f9f",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/research_notes/S1_Component_Summary_Table.docx",
+    "source_name": "S1_Component_Summary_Table.docx",
+    "source_drive_id": "1j7etAvK_K76X2w1vaZNFNz5M7PzKcao_",
+    "source_url": "https://docs.google.com/document/d/1j7etAvK_K76X2w1vaZNFNz5M7PzKcao_/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "780298859875f79174d44a9bc2cba127947499dda95214b0386c32a4421c92bc",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/WISP_DC_S1_FINAL_WITH_SUMMARY.xlsx",
+    "source_name": "WISP_DC_S1_FINAL_WITH_SUMMARY.xlsx",
+    "source_drive_id": "1WcDHPj01kQPYK9X5AycFZc0QwKm4uYAF",
+    "source_url": "https://docs.google.com/spreadsheets/d/1WcDHPj01kQPYK9X5AycFZc0QwKm4uYAF/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "da2944be9d2f11017463940c161a2e2f770d8fe0e80cf5e94f32dcab0a5a593d",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_materials/complete_S1_Experiment_Data.xlsx",
+    "source_name": "complete S1_Experiment_Data.xlsx",
+    "source_drive_id": "1P4g13zeSLFHpOvIqsMRq0qNMwLVfuBSw",
+    "source_url": "https://docs.google.com/spreadsheets/d/1P4g13zeSLFHpOvIqsMRq0qNMwLVfuBSw/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "c4daf764d73d2220ec72afc0857ee08c5890e98df5792b94ecad6ae047af031d",
+    "role": "source_archive"
+  },
+  {
+    "path": "archive/source_packages/Physics_Phase_01_8_Workbooks.zip",
+    "source_name": "Physics_Phase_01_8_Workbooks.zip",
+    "source_drive_id": "1B4k0i-sdY3Rl5AVXwaNc79m9Tt8kdKIJ",
+    "source_url": "https://drive.google.com/file/d/1B4k0i-sdY3Rl5AVXwaNc79m9Tt8kdKIJ/view?usp=drivesdk",
+    "sha256": "2bcffda806307a6c722956aaac654c5da9e1fd477e71fb9378e07d77e04d635b",
+    "role": "source_archive"
+  },
+  {
+    "path": "prototype/rules/WISP_DC_Person2_Rules_Catalogue_1_.xlsx",
+    "source_name": "WISP_DC_Person2_Rules_Catalogue (1).xlsx",
+    "source_drive_id": "1kojN-JGPypzH_DSqEBz-xFMAk3tXXfXo",
+    "source_url": "https://docs.google.com/spreadsheets/d/1kojN-JGPypzH_DSqEBz-xFMAk3tXXfXo/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "fc76eddbb9f814b9fea65e65754cc4a8cba3ae26ba4c12b23bc64d9a69503a2a",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/STORAGE.CSV",
+    "source_name": "STORAGE.CSV",
+    "source_drive_id": "1_ybKFnd1xbqPT0UL9QqdR6TFYO7LKz2E",
+    "source_url": "https://drive.google.com/file/d/1_ybKFnd1xbqPT0UL9QqdR6TFYO7LKz2E/view?usp=drivesdk",
+    "sha256": "3c99f571bd2491870366124e4c110d59ee2dabddef1c80799280675a4c6117ba",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/NETWORKING.csv",
+    "source_name": "NETWORKING.csv",
+    "source_drive_id": "1pRVUbrmMvrtnk5pdqmEvMDlphnIePidu",
+    "source_url": "https://drive.google.com/file/d/1pRVUbrmMvrtnk5pdqmEvMDlphnIePidu/view?usp=drivesdk",
+    "sha256": "b7abfef606b5ccc2877a7358f29e5b1d54907ee52e88ace68aca779347994414",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/AI_SERVER.CSV",
+    "source_name": "AI SERVER.CSV",
+    "source_drive_id": "1xtWK2242zs01JMQHUOEImw6S3uvplOYZ",
+    "source_url": "https://drive.google.com/file/d/1xtWK2242zs01JMQHUOEImw6S3uvplOYZ/view?usp=drivesdk",
+    "sha256": "74bfe03c1704f1cfaa4bbe5055da4f7de49fc306f6fb124a47c913e4ae46e367",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/GPU.csv",
+    "source_name": "GPU.csv",
+    "source_drive_id": "1y_43p9l96zvG0lJLb6WsbK-pPR08Yimj",
+    "source_url": "https://drive.google.com/file/d/1y_43p9l96zvG0lJLb6WsbK-pPR08Yimj/view?usp=drivesdk",
+    "sha256": "27258797ee0cbefed5551da2aba513dd64945a5aa5d2de8639e93908a3ff46c9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/CPU.csv",
+    "source_name": "CPU.csv",
+    "source_drive_id": "1UhT1F8UlAjK-zUK_lj28gSzxUWL9BplN",
+    "source_url": "https://drive.google.com/file/d/1UhT1F8UlAjK-zUK_lj28gSzxUWL9BplN/view?usp=drivesdk",
+    "sha256": "9d528578f2d2a04f153d5d2bb763020bbb38ad5cd8a733e5ea7ce237e8b127e2",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/COOLING-RELATED_HARDWARE_PARAMETERS.csv",
+    "source_name": "COOLING-RELATED HARDWARE PARAMETERS.csv",
+    "source_drive_id": "10SAhmw4Zyyugnv10Q6CtdvCb1wj0Pl8a",
+    "source_url": "https://drive.google.com/file/d/10SAhmw4Zyyugnv10Q6CtdvCb1wj0Pl8a/view?usp=drivesdk",
+    "sha256": "af61dcf1b29c62beaaeb459fc30beb1b6f0c69be331422a50854119624a4fd27",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/POWER_DISTRIBUTION.csv",
+    "source_name": "POWER DISTRIBUTION.csv",
+    "source_drive_id": "1SOHMnGdTA7leQIy2r17B3Gn34vtmoziT",
+    "source_url": "https://drive.google.com/file/d/1SOHMnGdTA7leQIy2r17B3Gn34vtmoziT/view?usp=drivesdk",
+    "sha256": "0dd6aa3c0bf0a519342df9566ee9eb4435839de6111651aeb463cace115102ac",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/PDU.csv",
+    "source_name": "PDU.csv",
+    "source_drive_id": "1acPe8EM5JpeXkWK8E0lBbxYdf0w7d83c",
+    "source_url": "https://drive.google.com/file/d/1acPe8EM5JpeXkWK8E0lBbxYdf0w7d83c/view?usp=drivesdk",
+    "sha256": "0cf267bc89166335b12bfd781883eb2a618d69ab1fabd265b030efb4db7252d1",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/UPS.csv",
+    "source_name": "UPS.csv",
+    "source_drive_id": "1Lf_286Pg4SRLlkiMW0bjRBfwcuUZgro7",
+    "source_url": "https://drive.google.com/file/d/1Lf_286Pg4SRLlkiMW0bjRBfwcuUZgro7/view?usp=drivesdk",
+    "sha256": "49d25bae40d84bb7c5273120402d263067b95332b8620fa1b8aae7b3579bd3b8",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/catalogue/RACK.csv",
+    "source_name": "RACK.csv",
+    "source_drive_id": "1WrlIKwoQ1vdLmmzYDtFFrgkofrj5mTKq",
+    "source_url": "https://drive.google.com/file/d/1WrlIKwoQ1vdLmmzYDtFFrgkofrj5mTKq/view?usp=drivesdk",
+    "sha256": "abd634213b4f001480259b39b570cd23e22042af9f812841db0066f111d679b0",
+    "role": "prototype_support"
+  },
+  {
+    "path": "archive/source_materials/WISP_DC_Experiment_Data.xlsx",
+    "source_name": "WISP_DC_Experiment_Data.xlsx",
+    "source_drive_id": "1215TewX4_8bjcbihPJ04QXAFdY5Ke1ZA",
+    "source_url": "https://docs.google.com/spreadsheets/d/1215TewX4_8bjcbihPJ04QXAFdY5Ke1ZA/edit?usp=drivesdk&ouid=110082626092790455302&rtpof=true&sd=true",
+    "sha256": "8bf156c5566177c433b91c013beeb06cde5c9d866ae1cb28a487f50299c57241",
+    "role": "source_archive"
+  },
+  {
+    "path": "prototype/rules/SERVERS/04_Server_Formulas_Final.csv",
+    "source_name": "04_Server_Formulas_Final.csv",
+    "source_drive_id": "1Uzw73zqw7zW9r4HO2_kMAa_nvuSCQosZ",
+    "source_url": "https://drive.google.com/file/d/1Uzw73zqw7zW9r4HO2_kMAa_nvuSCQosZ/view?usp=drivesdk",
+    "sha256": "e78201448e077e43afeebde5d6809c76bfd41593be157aeae92a7e33f1350d05",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/SERVERS/04_Server_Rules_Final.csv",
+    "source_name": "04_Server_Rules_Final.csv",
+    "source_drive_id": "155sWpYFYZfSi6TvYlQd2JuSFk9bMhaNy",
+    "source_url": "https://drive.google.com/file/d/155sWpYFYZfSi6TvYlQd2JuSFk9bMhaNy/view?usp=drivesdk",
+    "sha256": "d13d9b5f07176a13207dd3111f1d19fe3f808cb8183706006106089aa1b93991",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/SERVERS/04_Server_Rules_Catalogue_Gaps_Final.csv",
+    "source_name": "04_Server_Rules_Catalogue_Gaps_Final.csv",
+    "source_drive_id": "1LEC63cx9rJdGl7MQdloolLqGYqS0oC_Y",
+    "source_url": "https://drive.google.com/file/d/1LEC63cx9rJdGl7MQdloolLqGYqS0oC_Y/view?usp=drivesdk",
+    "sha256": "2f22f0bf85bf2ac0dc7b511b5229e6ef471e1f9d99db68100b2dc24e23e412ec",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_QA.csv",
+    "source_name": "06_Networking_Rules_QA.csv",
+    "source_drive_id": "1wiICE003eItBwRZT1dEvBHb3RWFbNR1p",
+    "source_url": "https://drive.google.com/file/d/1wiICE003eItBwRZT1dEvBHb3RWFbNR1p/view?usp=drivesdk",
+    "sha256": "4a97614e9b917acdf4ec9bc73b8183de72ae89e2cef13a8b8b8a389952ff84ab",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_Source_Register.csv",
+    "source_name": "06_Networking_Rules_Source_Register.csv",
+    "source_drive_id": "15dCnVfwjyL2RycbQ7k8GH9z2O2fAZgCm",
+    "source_url": "https://drive.google.com/file/d/15dCnVfwjyL2RycbQ7k8GH9z2O2fAZgCm/view?usp=drivesdk",
+    "sha256": "4cc09479e98bbf81bf02beb770d31356eda9ad83ce27677252fca1d744bea556",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/SERVERS/04_Server_Rules_QA_Final.csv",
+    "source_name": "04_Server_Rules_QA_Final.csv",
+    "source_drive_id": "1YqwmpUqlAYC3MLtIbnZ_8pZZ2RxqlEDy",
+    "source_url": "https://drive.google.com/file/d/1YqwmpUqlAYC3MLtIbnZ_8pZZ2RxqlEDy/view?usp=drivesdk",
+    "sha256": "749e776b46e42c747fe15e538856c9598c0086d129706ff2b85f5add575427f7",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/SERVERS/04_Server_Rules_Sources_Final.csv",
+    "source_name": "04_Server_Rules_Sources_Final.csv",
+    "source_drive_id": "1HK_Ay1g0C45s5HstltXMZ6muIHK5RtZG",
+    "source_url": "https://drive.google.com/file/d/1HK_Ay1g0C45s5HstltXMZ6muIHK5RtZG/view?usp=drivesdk",
+    "sha256": "c85644f9947d872a8e71aa5b4acc8445a0f66e7a9079562368cff0dbcea3a4c6",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_ID_Mapping.csv",
+    "source_name": "06_Networking_Rules_ID_Mapping.csv",
+    "source_drive_id": "1YxpKpj8yEoSb-u72_UWnUkJFIbKkjKHQ",
+    "source_url": "https://drive.google.com/file/d/1YxpKpj8yEoSb-u72_UWnUkJFIbKkjKHQ/view?usp=drivesdk",
+    "sha256": "fa1985d1d31aec618b2b183e3818d8b54ab5ff508ff10b87e9615cf74a19c7bf",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_Gaps.csv",
+    "source_name": "06_Networking_Rules_Gaps.csv",
+    "source_drive_id": "1hJiT7srwpO8-KWEQFFDBqwZM3mJDJGwW",
+    "source_url": "https://drive.google.com/file/d/1hJiT7srwpO8-KWEQFFDBqwZM3mJDJGwW/view?usp=drivesdk",
+    "sha256": "c21261d597f7e772eba134cbf75dd33ba707b63d072e85df4674c35eb88c9149",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_Catalogue_Field_Gaps.csv",
+    "source_name": "06_Networking_Rules_Catalogue_Field_Gaps.csv",
+    "source_drive_id": "1AZSPs4YhtVidPTB4srX2Mvays371k_dP",
+    "source_url": "https://drive.google.com/file/d/1AZSPs4YhtVidPTB4srX2Mvays371k_dP/view?usp=drivesdk",
+    "sha256": "6b1d7ed1abcc3dfb49eb06d56ca42c9c4af2e387a13ac360c6ad58f1ddf1a840",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules_Catalogue_Field_Register.csv",
+    "source_name": "06_Networking_Rules_Catalogue_Field_Register.csv",
+    "source_drive_id": "1P5kCxc1rn0CX3e1l3Gd7YZYbzYqmC_WD",
+    "source_url": "https://drive.google.com/file/d/1P5kCxc1rn0CX3e1l3Gd7YZYbzYqmC_WD/view?usp=drivesdk",
+    "sha256": "767ea608d9fd44f9245d6ada7ae942db05b1b9918af7f688c31389d2fa984ba6",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Formulas.csv",
+    "source_name": "06_Networking_Formulas.csv",
+    "source_drive_id": "1e90bCZZMGOE5_gljA_MQBVDUcAv2_04k",
+    "source_url": "https://drive.google.com/file/d/1e90bCZZMGOE5_gljA_MQBVDUcAv2_04k/view?usp=drivesdk",
+    "sha256": "2a40109d42d82c4448e0465d91fb3c9c65609d44c0a5131dafc8f66b13117c45",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Formulas_ID_Mapping.csv",
+    "source_name": "06_Networking_Formulas_ID_Mapping.csv",
+    "source_drive_id": "18q5uyVMHdfGeI_nhxDnZm1y_S2G2ilDQ",
+    "source_url": "https://drive.google.com/file/d/18q5uyVMHdfGeI_nhxDnZm1y_S2G2ilDQ/view?usp=drivesdk",
+    "sha256": "3e85ee3430eb97c4393d23d6458e88dd6dc3ce7c5f1aab6096cd4ccb9194c04d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Consolidation_Statistics.csv",
+    "source_name": "06_Networking_Consolidation_Statistics.csv",
+    "source_drive_id": "1Jfv7h3h27zCmEcv2JWcS8Gu8HZpGi6Kb",
+    "source_url": "https://drive.google.com/file/d/1Jfv7h3h27zCmEcv2JWcS8Gu8HZpGi6Kb/view?usp=drivesdk",
+    "sha256": "781e7f6371ceec92121623095b96b5d9e8277cedf73a3116d301c5c0b4b49fb8",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/NETWORKING/06_Networking_Rules.csv",
+    "source_name": "06_Networking_Rules.csv",
+    "source_drive_id": "15q2TOMRl-1_m7MXjPuL1XGgHLbNg-kNZ",
+    "source_url": "https://drive.google.com/file/d/15q2TOMRl-1_m7MXjPuL1XGgHLbNg-kNZ/view?usp=drivesdk",
+    "sha256": "a3ecb6f2a337f5475250e68138f96198c242fd348696df32dea28d170ee48d8d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Formulas_ID_Mapping.csv",
+    "source_name": "06_Rack_Formulas_ID_Mapping.csv",
+    "source_drive_id": "1ZewMpWSfDMatxsfzw6IY7LuxjyxArZ9X",
+    "source_url": "https://drive.google.com/file/d/1ZewMpWSfDMatxsfzw6IY7LuxjyxArZ9X/view?usp=drivesdk",
+    "sha256": "7b3eccd7ba8d073e3dfd87d91de779086c22bb0d6035efc7dd52aa580d09039d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Formulas.csv",
+    "source_name": "06_Rack_Formulas.csv",
+    "source_drive_id": "1areI2z0f2Ljg5YdbAau1xvIxJOZpt3wL",
+    "source_url": "https://drive.google.com/file/d/1areI2z0f2Ljg5YdbAau1xvIxJOZpt3wL/view?usp=drivesdk",
+    "sha256": "60e1bf53160b5c97156789855c68d721cd3f5612750647227bc253cb3d874aad",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_Source_Register.csv",
+    "source_name": "06_Rack_Rules_Source_Register.csv",
+    "source_drive_id": "1RLLyNTw2wqaB_N49xJxZmLEjOwfcmEGK",
+    "source_url": "https://drive.google.com/file/d/1RLLyNTw2wqaB_N49xJxZmLEjOwfcmEGK/view?usp=drivesdk",
+    "sha256": "4b56d132d6cee1f126d1df2678cce36284d800c32768b78ef87f380a790fd5bd",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Consolidation_Statistics.csv",
+    "source_name": "06_Rack_Consolidation_Statistics.csv",
+    "source_drive_id": "1jRYxKdwz4PIHLHXVaCHP_mu32-cKEGoS",
+    "source_url": "https://drive.google.com/file/d/1jRYxKdwz4PIHLHXVaCHP_mu32-cKEGoS/view?usp=drivesdk",
+    "sha256": "e769b925cf7f08b0fea956d80ce7fc011eb496f1df88e74e8524b9320f2e0f37",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_ID_Mapping.csv",
+    "source_name": "06_Rack_Rules_ID_Mapping.csv",
+    "source_drive_id": "1e_hMkDNazEjSnP4iSHql7SlwpSffC0fT",
+    "source_url": "https://drive.google.com/file/d/1e_hMkDNazEjSnP4iSHql7SlwpSffC0fT/view?usp=drivesdk",
+    "sha256": "995dfb1b759e102ed238f34bd48476d8b2821f612ada798cfb65b4a38cb9ad5d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_QA.csv",
+    "source_name": "06_Rack_Rules_QA.csv",
+    "source_drive_id": "1832Ku9eqkOQ8JA5SZ-x1vpzmQ2oLf9AA",
+    "source_url": "https://drive.google.com/file/d/1832Ku9eqkOQ8JA5SZ-x1vpzmQ2oLf9AA/view?usp=drivesdk",
+    "sha256": "273c91f80d7fd90929beebd0193d204cead1bd6784c93b75d0143ce7bf3fea46",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_Gaps.csv",
+    "source_name": "06_Rack_Rules_Gaps.csv",
+    "source_drive_id": "13XwqHPZjI7dxTY6Xm-ege4hdOk5h9gZN",
+    "source_url": "https://drive.google.com/file/d/13XwqHPZjI7dxTY6Xm-ege4hdOk5h9gZN/view?usp=drivesdk",
+    "sha256": "bf261b75205067dc6673c2515b1fa748bb3a8d67335266134eca33be58bbe7a9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_Catalogue_Field_Register.csv",
+    "source_name": "06_Rack_Rules_Catalogue_Field_Register.csv",
+    "source_drive_id": "1SlxOxgNk0_DB1uwZmMKzZ_JZ5tbWTq6K",
+    "source_url": "https://drive.google.com/file/d/1SlxOxgNk0_DB1uwZmMKzZ_JZ5tbWTq6K/view?usp=drivesdk",
+    "sha256": "dfe96b204e7369421b2a4f0394fb235eed8d5d7b7d7f398008999a3b2cc943a9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules.csv",
+    "source_name": "06_Rack_Rules.csv",
+    "source_drive_id": "1ZP0D_JT9p1vqWXzVSIveN_eNKTgL8-_s",
+    "source_url": "https://drive.google.com/file/d/1ZP0D_JT9p1vqWXzVSIveN_eNKTgL8-_s/view?usp=drivesdk",
+    "sha256": "910f23887cbbbecae5820cbc5aedce17a4e9587edd395200ec5e08d75ff30035",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Rules_QA.csv",
+    "source_name": "05_Memory_Rules_QA.csv",
+    "source_drive_id": "13u6Q0zZFyCco-P54pLij82bZweY41mEO",
+    "source_url": "https://drive.google.com/file/d/13u6Q0zZFyCco-P54pLij82bZweY41mEO/view?usp=drivesdk",
+    "sha256": "1d4a5ed84302936fcd31a85a84b8b9b207e56b8ce1c57f846e7a240eb7cb92dc",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/RACK/06_Rack_Rules_Catalogue_Field_Gaps.csv",
+    "source_name": "06_Rack_Rules_Catalogue_Field_Gaps.csv",
+    "source_drive_id": "1tZ3o44g1NW-4DCuDtHKPUqWiWX-Gulph",
+    "source_url": "https://drive.google.com/file/d/1tZ3o44g1NW-4DCuDtHKPUqWiWX-Gulph/view?usp=drivesdk",
+    "sha256": "b014ec78b0c7e9d4f5a6b6625dc37721deae1d470d3c964fffeb4a4ad3757689",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Rules_Gaps.csv",
+    "source_name": "05_Memory_Rules_Gaps.csv",
+    "source_drive_id": "1St7oZxR5OHGEoZUcVF5OWf7faGaELqtQ",
+    "source_url": "https://drive.google.com/file/d/1St7oZxR5OHGEoZUcVF5OWf7faGaELqtQ/view?usp=drivesdk",
+    "sha256": "bbc36ff1dc141d675a6b070cd3240f5630e6f039b1cc24a8647daf7dc5a0d204",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Consolidation_Statistics.csv",
+    "source_name": "05_Memory_Consolidation_Statistics.csv",
+    "source_drive_id": "165BcMWUO7QeeAEy8b9t0TOfbWGURVutJ",
+    "source_url": "https://drive.google.com/file/d/165BcMWUO7QeeAEy8b9t0TOfbWGURVutJ/view?usp=drivesdk",
+    "sha256": "19cfd9bc247ba99cfeb91d4feff66e32003009b7019398e8824e8cee068c4d2f",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Formulas_ID_Mapping.csv",
+    "source_name": "05_Memory_Formulas_ID_Mapping.csv",
+    "source_drive_id": "1_GRXONQnaNfWTPRIb7wkNEAPDJ52qcUK",
+    "source_url": "https://drive.google.com/file/d/1_GRXONQnaNfWTPRIb7wkNEAPDJ52qcUK/view?usp=drivesdk",
+    "sha256": "0fd352b263ff20218fd9606df4144f0506fd6c4ad2dd8d97aacd18c1011305d2",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Rules.csv",
+    "source_name": "05_Memory_Rules.csv",
+    "source_drive_id": "1hOkf2m1Y6n-1frppQNy9mXb1SrO2k3_U",
+    "source_url": "https://drive.google.com/file/d/1hOkf2m1Y6n-1frppQNy9mXb1SrO2k3_U/view?usp=drivesdk",
+    "sha256": "56a2399bf9d37f331a98df1196fd45919776973ae127ff1b8f02b3e44d0f3092",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Formulas.csv",
+    "source_name": "05_Memory_Formulas.csv",
+    "source_drive_id": "1DdxB0LkoOGHnajVgkEgH4lUTSNy314kV",
+    "source_url": "https://drive.google.com/file/d/1DdxB0LkoOGHnajVgkEgH4lUTSNy314kV/view?usp=drivesdk",
+    "sha256": "d88f7f895530b914a1d1a91256b53304e3fae630cbe61a8eeaf0a861683cd480",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Rules_ID_Mapping.csv",
+    "source_name": "05_Memory_Rules_ID_Mapping.csv",
+    "source_drive_id": "1nzBGZeprkQyF0hPYtSSyP1tZG0NpHcXe",
+    "source_url": "https://drive.google.com/file/d/1nzBGZeprkQyF0hPYtSSyP1tZG0NpHcXe/view?usp=drivesdk",
+    "sha256": "29eb28a738b5958d91736976087402884d13b83e74c3df7e33f7f769c96e88ef",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/05_Memory_Rules_Source_Register.csv",
+    "source_name": "05_Memory_Rules_Source_Register.csv",
+    "source_drive_id": "1iQHRArUVHYZcuiFZb2StuqGpv4VuCj31",
+    "source_url": "https://drive.google.com/file/d/1iQHRArUVHYZcuiFZb2StuqGpv4VuCj31/view?usp=drivesdk",
+    "sha256": "ae10544a1146985a356d34f6499348f8962cef6668e7b7efa53e7ae97a4fa2fb",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Rules_Research_Based_MAIN.csv",
+    "source_name": "02_CPU_Rules_Research_Based_MAIN.csv",
+    "source_drive_id": "1G9q2pZVXYyxinRWh7TpDwSc1Po7i8wkf",
+    "source_url": "https://drive.google.com/file/d/1G9q2pZVXYyxinRWh7TpDwSc1Po7i8wkf/view?usp=drivesdk",
+    "sha256": "32b9c4a4fba680b9e2c638577dfc0f5e6f59b77cdadc0c05fdaa3b474e6c181f",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_Sources.csv",
+    "source_name": "02_CPU_Research_Sources.csv",
+    "source_drive_id": "1BckUGcyLaXIczFjmy1BdjlPxCRVqEUkH",
+    "source_url": "https://drive.google.com/file/d/1BckUGcyLaXIczFjmy1BdjlPxCRVqEUkH/view?usp=drivesdk",
+    "sha256": "0cc55532f93e723325f9a2052627d481982194a5086c767024d2fc0f27327647",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Formulas_Research_Based.csv",
+    "source_name": "02_CPU_Formulas_Research_Based.csv",
+    "source_drive_id": "1-EbAzEtVO6XuqB76-5Ev1JqRYPchEJBg",
+    "source_url": "https://drive.google.com/file/d/1-EbAzEtVO6XuqB76-5Ev1JqRYPchEJBg/view?usp=drivesdk",
+    "sha256": "ddd8fdad4f9f2e1064d6ebeb58b5a9c15104cb09d3d39d93a88d8e632929b8bf",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_Statistics.csv",
+    "source_name": "02_CPU_Research_Statistics.csv",
+    "source_drive_id": "1iTEsuTBVKo1CUitz2XrYN5R6vKNIzv7C",
+    "source_url": "https://drive.google.com/file/d/1iTEsuTBVKo1CUitz2XrYN5R6vKNIzv7C/view?usp=drivesdk",
+    "sha256": "aad5d09f8bae2ac6cf5871bdf5c6e48aa375f63530806b91e1b8a6e4a48e77ab",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_QA.csv",
+    "source_name": "02_CPU_Research_QA.csv",
+    "source_drive_id": "16WHjhUjwWBdO1Zb7_s8QrUm-XOmIyC4G",
+    "source_url": "https://drive.google.com/file/d/16WHjhUjwWBdO1Zb7_s8QrUm-XOmIyC4G/view?usp=drivesdk",
+    "sha256": "3b4568961a3171b7b39a20a440bc9a0e604e09de9bd65a0c0e75bb4d5da1f7ac",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Rule_Evidence_Mapping.csv",
+    "source_name": "02_CPU_Rule_Evidence_Mapping.csv",
+    "source_drive_id": "1t1HqxyXgqD9fZG8ZGwGGgInVBVp9D8wM",
+    "source_url": "https://drive.google.com/file/d/1t1HqxyXgqD9fZG8ZGwGGgInVBVp9D8wM/view?usp=drivesdk",
+    "sha256": "c77f332400a2f7482c1698b638184754a6abf17d8498b37eb4f7e2a768fa4082",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Formula_Research_Audit.csv",
+    "source_name": "02_CPU_Formula_Research_Audit.csv",
+    "source_drive_id": "1guEdvzZijAsBZkVk2utfh9pgb0B-a4jY",
+    "source_url": "https://drive.google.com/file/d/1guEdvzZijAsBZkVk2utfh9pgb0B-a4jY/view?usp=drivesdk",
+    "sha256": "2bf56ea3dc284cbab0ccffaed593237de42b20dba65abd67e3fdc20225ac3aea",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_Gaps.csv",
+    "source_name": "02_CPU_Research_Gaps.csv",
+    "source_drive_id": "1ZRjnxvY3MbOzB87dQnYeNASTHi5MWXHh",
+    "source_url": "https://drive.google.com/file/d/1ZRjnxvY3MbOzB87dQnYeNASTHi5MWXHh/view?usp=drivesdk",
+    "sha256": "e47766ca5624883c96748dfc403da03662ba2626d917efabefbf16fcd76aa56d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_Enrichment.csv",
+    "source_name": "02_CPU_Research_Enrichment.csv",
+    "source_drive_id": "1Z0wfuoRzF5k6E0ts627vo8Ageyna7QpO",
+    "source_url": "https://drive.google.com/file/d/1Z0wfuoRzF5k6E0ts627vo8Ageyna7QpO/view?usp=drivesdk",
+    "sha256": "19c15862d05d17380e883b1cc4ad068f3eed25658da8826d5cc50ec212df8f9e",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Research_Papers.csv",
+    "source_name": "02_CPU_Research_Papers.csv",
+    "source_drive_id": "1KOwSdm1d4sHc1KMPZLbUlou__vxfNScw",
+    "source_url": "https://drive.google.com/file/d/1KOwSdm1d4sHc1KMPZLbUlou__vxfNScw/view?usp=drivesdk",
+    "sha256": "9b082f78b10d175a32600093e86a29ac0667eeec18495b6c5cfad33d522cb20d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_Workload_and_Resource_Requirements_ID_Mapping.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_ID_Mapping.csv",
+    "source_drive_id": "1IkHkX0btTbJgqlm4plzBw9PE60BR0k3l",
+    "source_url": "https://drive.google.com/file/d/1IkHkX0btTbJgqlm4plzBw9PE60BR0k3l/view?usp=drivesdk",
+    "sha256": "bd9caa0dbe0f1b599b3da6f8f368f99cc64940aebee134d40c660c3d0f4996f9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Rules_MAIN.csv",
+    "source_name": "02_CPU_Rules_MAIN.csv",
+    "source_drive_id": "1TL0RofqScG6VHI0cxRGZxkTapA7f4Aaz",
+    "source_url": "https://drive.google.com/file/d/1TL0RofqScG6VHI0cxRGZxkTapA7f4Aaz/view?usp=drivesdk",
+    "sha256": "cccef750fc2c39b35be848a64294edfb543e3fab6503535936bf12c4228cd80d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/CPU/02_CPU_Rules_Research_Source_Register.csv",
+    "source_name": "02_CPU_Rules_Research_Source_Register.csv",
+    "source_drive_id": "1sI6eQkktjlzTM68gLdtwkdVszb8fMCUx",
+    "source_url": "https://drive.google.com/file/d/1sI6eQkktjlzTM68gLdtwkdVszb8fMCUx/view?usp=drivesdk",
+    "sha256": "5a7552f204e91a4ac0f7aaefea939476df53ce2c57c61c45ab4ba7c7496c7177",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_Workload_and_Resource_Requirements_Gaps.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Gaps.csv",
+    "source_drive_id": "1fhp-Y2a54i-O0yRcFKLVutm3AQdgLCu7",
+    "source_url": "https://drive.google.com/file/d/1fhp-Y2a54i-O0yRcFKLVutm3AQdgLCu7/view?usp=drivesdk",
+    "sha256": "607f535da3643521c5e45294fd711a4e4f43da3ed88f3e56bf0ed826bf96d9ea",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_Workload_and_Resource_Requirements_Overlap.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Overlap.csv",
+    "source_drive_id": "1nWuNsAGuX54A3njPjbuS7xcy-sW8nZAi",
+    "source_url": "https://drive.google.com/file/d/1nWuNsAGuX54A3njPjbuS7xcy-sW8nZAi/view?usp=drivesdk",
+    "sha256": "fd63d2b763b63fa49b170ccce85da69cc9ba801078bacc1c13dde64b6031e6ca",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/workload.csv",
+    "source_name": "workload.csv",
+    "source_drive_id": "15Fh60BZOsRCZ9bJ-pysBSRG4el6djM-3",
+    "source_url": "https://drive.google.com/file/d/15Fh60BZOsRCZ9bJ-pysBSRG4el6djM-3/view?usp=drivesdk",
+    "sha256": "1ac38ae5e854a32764dee87750e69d7e9d558419a054149f4c77b14898100421",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_network_distributed_communication_new_rules.csv",
+    "source_name": "DSS_network_distributed_communication_new_rules.csv",
+    "source_drive_id": "1ui7LgsDSe3IeJwHaSLGsQp-Hto3TuEWU",
+    "source_url": "https://drive.google.com/file/d/1ui7LgsDSe3IeJwHaSLGsQp-Hto3TuEWU/view?usp=drivesdk",
+    "sha256": "b53c56514c4b16d7079626ba78d4b634a940ed7e690dfa583b6d09c74333f4f2",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_storage_IO_expansion_complete.csv",
+    "source_name": "DSS_storage_IO_expansion_complete.csv",
+    "source_drive_id": "14CnkBY3k9r7xEnX4VNDNXE6GYc-Ux2yW",
+    "source_url": "https://drive.google.com/file/d/14CnkBY3k9r7xEnX4VNDNXE6GYc-Ux2yW/view?usp=drivesdk",
+    "sha256": "71288850e74362bf4d59f4b1b7366daf3dd6accf37e596d3b61c1fbb3f9cfc86",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_storage_IO_new_rules.csv",
+    "source_name": "DSS_storage_IO_new_rules.csv",
+    "source_drive_id": "1vJqwebl1MqyKnWTtAkVEywCDO8skEDFQ",
+    "source_url": "https://drive.google.com/file/d/1vJqwebl1MqyKnWTtAkVEywCDO8skEDFQ/view?usp=drivesdk",
+    "sha256": "0098d566cd601886e1c062fb5f9bae81f99cc57cca1464edd760dd82022ad9ac",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_CPU_resource_requirement_new_rules.csv",
+    "source_name": "DSS_CPU_resource_requirement_new_rules.csv",
+    "source_drive_id": "1HyMgtM2glzpoIG197d__OMVYmaTu1MkB",
+    "source_url": "https://drive.google.com/file/d/1HyMgtM2glzpoIG197d__OMVYmaTu1MkB/view?usp=drivesdk",
+    "sha256": "29ab3b52bebf5a20ae22b749e947c84b410d4a2f95f64bc764daf5c88c2a0f5d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_system_memory_host_RAM_new_rules.csv",
+    "source_name": "DSS_system_memory_host_RAM_new_rules.csv",
+    "source_drive_id": "1jXq44KNWnqsjtdXFXBv4wE4amQApQELH",
+    "source_url": "https://drive.google.com/file/d/1jXq44KNWnqsjtdXFXBv4wE4amQApQELH/view?usp=drivesdk",
+    "sha256": "605ea310ba6c8b3d470f64b7fa1725bb090996e6232ac5135dc75eb88859f391",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_network_distributed_communication_expansion_complete.csv",
+    "source_name": "DSS_network_distributed_communication_expansion_complete.csv",
+    "source_drive_id": "1pttSb3yNfaiw8DJniYDgAQ7x7Ru8KaqB",
+    "source_url": "https://drive.google.com/file/d/1pttSb3yNfaiw8DJniYDgAQ7x7Ru8KaqB/view?usp=drivesdk",
+    "sha256": "c689d09ab7038f40abf835880110037e0cb645cdab25f6e643f4df258ede6753",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_system_memory_host_RAM_expansion_complete.csv",
+    "source_name": "DSS_system_memory_host_RAM_expansion_complete.csv",
+    "source_drive_id": "1wiHdZaiLtcxlOvFzpQorS4dVNpGJ_qZE",
+    "source_url": "https://drive.google.com/file/d/1wiHdZaiLtcxlOvFzpQorS4dVNpGJ_qZE/view?usp=drivesdk",
+    "sha256": "5d93f0155ca77d292a047c3d3e26bc46d9e50aeb7e394fe21cdc1b67e643ba75",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_CPU_resource_requirement_expansion_complete.csv",
+    "source_name": "DSS_CPU_resource_requirement_expansion_complete.csv",
+    "source_drive_id": "1owAthnz0iqBAbeGGlvIknqQbxBjQDRyK",
+    "source_url": "https://drive.google.com/file/d/1owAthnz0iqBAbeGGlvIknqQbxBjQDRyK/view?usp=drivesdk",
+    "sha256": "9a95076eaa1c10f92e07f513474d4f61ab72c0478e6cdd61de487fab2ebca4f8",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_GPU_resource_scaling_new_rules.csv",
+    "source_name": "DSS_GPU_resource_scaling_new_rules.csv",
+    "source_drive_id": "1kcFxkmUpKJt_QvC4nr0vNkrL0t8wn5IE",
+    "source_url": "https://drive.google.com/file/d/1kcFxkmUpKJt_QvC4nr0vNkrL0t8wn5IE/view?usp=drivesdk",
+    "sha256": "3620dc4d6eb9e38e2edd005a86e636a73cd24c9ef4688979da68705425b4a7dc",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_GPU_resource_scaling_expansion_complete.csv",
+    "source_name": "DSS_GPU_resource_scaling_expansion_complete.csv",
+    "source_drive_id": "1fvsZ0Ji7tOqIqhpJLYQNJiLZ8jyvHUej",
+    "source_url": "https://drive.google.com/file/d/1fvsZ0Ji7tOqIqhpJLYQNJiLZ8jyvHUej/view?usp=drivesdk",
+    "sha256": "1cdd0835846551edd7ba4356aadea40325d7d266e7c6ff65c5a296a01034ce75",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_inference_resource_rules.csv",
+    "source_name": "DSS_inference_resource_rules.csv",
+    "source_drive_id": "17J9Lc0gIPAUPRL4XJiqHrNljyY6NSF8S",
+    "source_url": "https://drive.google.com/file/d/17J9Lc0gIPAUPRL4XJiqHrNljyY6NSF8S/view?usp=drivesdk",
+    "sha256": "0b304ff0032db89df5db0b11ac40cb80ace8795a337fb7489f2c768591cda811",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/training_resource_req.csv",
+    "source_name": "training_resource_req.csv",
+    "source_drive_id": "1YBl78r3XjqWGtRp5YFeW6YzgZ3QWlwSk",
+    "source_url": "https://drive.google.com/file/d/1YBl78r3XjqWGtRp5YFeW6YzgZ3QWlwSk/view?usp=drivesdk",
+    "sha256": "6bce44da2f920db314faf8dc0b5ae97f11be477b20ddd0f9019dd48d53270f50",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/GPU/SOURCES.CSV",
+    "source_name": "SOURCES.CSV",
+    "source_drive_id": "1SCSW4DRr9jAbcDBwIzt3BZ70WAx1pMqG",
+    "source_url": "https://drive.google.com/file/d/1SCSW4DRr9jAbcDBwIzt3BZ70WAx1pMqG/view?usp=drivesdk",
+    "sha256": "5e1d93e2a701167f94533144925f7e151b245041b42b1d894da40cb146f2c1fe",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/GPU/FORMULAS.CSV",
+    "source_name": "FORMULAS.CSV",
+    "source_drive_id": "1mj7moCJi6p8zDzWB1UonoC2V4WmwtUgm",
+    "source_url": "https://drive.google.com/file/d/1mj7moCJi6p8zDzWB1UonoC2V4WmwtUgm/view?usp=drivesdk",
+    "sha256": "0df686631d14522c46426b6227f7ca4154a40c063d2b7a3abc5aeb762907a19a",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/GPU/03_GPU_Rules.csv",
+    "source_name": "03_GPU_Rules.csv",
+    "source_drive_id": "19K_AcNsKQVBNaZWYhY3TiWmLyKga1e35",
+    "source_url": "https://drive.google.com/file/d/19K_AcNsKQVBNaZWYhY3TiWmLyKga1e35/view?usp=drivesdk",
+    "sha256": "e3e91ed1325eb2174c9ef6abe3790adc3e8b6bee08521e45c0f0b8e6b320dceb",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload_prev/DSS_inference_resource_requirement_complete.csv",
+    "source_name": "DSS_inference_resource_requirement_complete.csv",
+    "source_drive_id": "1mxhDV9prctaov2QvgZWUiGcJhZlA_PZs",
+    "source_url": "https://drive.google.com/file/d/1mxhDV9prctaov2QvgZWUiGcJhZlA_PZs/view?usp=drivesdk",
+    "sha256": "d8930694bb74ab935ef94de631a72825800caf2450f54c3e7e85f92b6a068fa0",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_ID_Mapping.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_ID_Mapping.csv",
+    "source_drive_id": "1bgU63reuC06zIqvEXE3uVNAdwzwnvcfm",
+    "source_url": "https://drive.google.com/file/d/1bgU63reuC06zIqvEXE3uVNAdwzwnvcfm/view?usp=drivesdk",
+    "sha256": "bd9caa0dbe0f1b599b3da6f8f368f99cc64940aebee134d40c660c3d0f4996f9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Statistics.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Statistics.csv",
+    "source_drive_id": "1MLtFPQs5DhAXx1SULWiWWoVZD9wy6hUG",
+    "source_url": "https://drive.google.com/file/d/1MLtFPQs5DhAXx1SULWiWWoVZD9wy6hUG/view?usp=drivesdk",
+    "sha256": "fc85a97cca6e9c6904438be95fae35741858368e1a10d782f6e0813784294390",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/GPU/RULES.CSV",
+    "source_name": "RULES.CSV",
+    "source_drive_id": "1qE-fBpB_DT4Px5TqYTMGpQ0Anlif0dD5",
+    "source_url": "https://drive.google.com/file/d/1qE-fBpB_DT4Px5TqYTMGpQ0Anlif0dD5/view?usp=drivesdk",
+    "sha256": "763e68c5c23a903999afddeb93cd44b61cb73345b67e3ac1acf17e4f658a1fc6",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Gaps.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Gaps.csv",
+    "source_drive_id": "1BVH0aH0hNwcp2AuHzAALZ_QUSQXX5EF-",
+    "source_url": "https://drive.google.com/file/d/1BVH0aH0hNwcp2AuHzAALZ_QUSQXX5EF-/view?usp=drivesdk",
+    "sha256": "607f535da3643521c5e45294fd711a4e4f43da3ed88f3e56bf0ed826bf96d9ea",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Overlap.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Overlap.csv",
+    "source_drive_id": "1nXL-9_jLSHcu2iYxg6PUcU1KqJGFKh5K",
+    "source_url": "https://drive.google.com/file/d/1nXL-9_jLSHcu2iYxg6PUcU1KqJGFKh5K/view?usp=drivesdk",
+    "sha256": "fd63d2b763b63fa49b170ccce85da69cc9ba801078bacc1c13dde64b6031e6ca",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Rule_Book.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Rule_Book.csv",
+    "source_drive_id": "1Jo55K81290Yxrsq1kTWpfnZKk0S6IXhb",
+    "source_url": "https://drive.google.com/file/d/1Jo55K81290Yxrsq1kTWpfnZKk0S6IXhb/view?usp=drivesdk",
+    "sha256": "ba092f2fbc98dbdc949e6bba418d6cf3a593d14f406a7028b598ef00c7271b63",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_QA.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_QA.csv",
+    "source_drive_id": "1e7pL77zfrEL30BjJMHeMaiYWAn303-i4",
+    "source_url": "https://drive.google.com/file/d/1e7pL77zfrEL30BjJMHeMaiYWAn303-i4/view?usp=drivesdk",
+    "sha256": "03697a233ff42b1d077892a7fce8b79b20ed6a6b21ac5bb06f2eb790e24ed791",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Classification.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Classification.csv",
+    "source_drive_id": "1Pp26_MkDsMfB9Mo6eg9oydmkRJcdo0-o",
+    "source_url": "https://drive.google.com/file/d/1Pp26_MkDsMfB9Mo6eg9oydmkRJcdo0-o/view?usp=drivesdk",
+    "sha256": "69d63896b763b50f6a2445b951c143ce044cf8424dd17a57d3110a27a154c472",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Source_Register.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Source_Register.csv",
+    "source_drive_id": "1jqAu9gZTFTFFtk87dQmK5OB8aK2GfGo2",
+    "source_url": "https://drive.google.com/file/d/1jqAu9gZTFTFFtk87dQmK5OB8aK2GfGo2/view?usp=drivesdk",
+    "sha256": "56282c92b5cdd4fa9de58815b4320769b88a74693165c5ebf0af6a94bd53513a",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements_Formulas.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements_Formulas.csv",
+    "source_drive_id": "1XYFWoxf0x5evuzLL1s8ll86tBxs1HWCT",
+    "source_url": "https://drive.google.com/file/d/1XYFWoxf0x5evuzLL1s8ll86tBxs1HWCT/view?usp=drivesdk",
+    "sha256": "5b2c0193480a3f4bf4634f4c5f1acf05257899533f2cd4313b719346c6ed8f2e",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_ID_Mapping.csv",
+    "source_name": "05_Storage_Rules_ID_Mapping.csv",
+    "source_drive_id": "17aKSvOjO5S-V0mnDzbNLPypWpRimHiDt",
+    "source_url": "https://drive.google.com/file/d/17aKSvOjO5S-V0mnDzbNLPypWpRimHiDt/view?usp=drivesdk",
+    "sha256": "d3fdaae9e44eba569fe4aa25c78c8953a645bf8e8157e6421f9c704a5bacdce5",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_Source_Register.csv",
+    "source_name": "05_Storage_Rules_Source_Register.csv",
+    "source_drive_id": "1RF7i56gRnhM3gLGfrOKi5asNyYi-NsPf",
+    "source_url": "https://drive.google.com/file/d/1RF7i56gRnhM3gLGfrOKi5asNyYi-NsPf/view?usp=drivesdk",
+    "sha256": "5f43cae141e6542e4562a2745fd3770dec32c8c94c9fcb1fee07d10cb314c633",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/workload/DSS_Workload_and_Resource_Requirements.csv",
+    "source_name": "DSS_Workload_and_Resource_Requirements.csv",
+    "source_drive_id": "1xyz6D8P4vcs6RLtAkhvMk2PtbRYrxCyr",
+    "source_url": "https://drive.google.com/file/d/1xyz6D8P4vcs6RLtAkhvMk2PtbRYrxCyr/view?usp=drivesdk",
+    "sha256": "074b06d99ee880ac8ab1dea4ab9b2253ea4554cfcdd237efb20639f0cbe22bc9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_QA.csv",
+    "source_name": "05_Storage_Rules_QA.csv",
+    "source_drive_id": "1m2acool3-S5rM5rXZBFLaHRNM9UP-Kjv",
+    "source_url": "https://drive.google.com/file/d/1m2acool3-S5rM5rXZBFLaHRNM9UP-Kjv/view?usp=drivesdk",
+    "sha256": "84ae4e69286478b5647e1342b473ee00d249e491aad4f4e9aaaf4e6e0975b096",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_Gaps.csv",
+    "source_name": "05_Storage_Rules_Gaps.csv",
+    "source_drive_id": "1RxjVfkIV4tz5rDqfvixLDONV8NDTHwEw",
+    "source_url": "https://drive.google.com/file/d/1RxjVfkIV4tz5rDqfvixLDONV8NDTHwEw/view?usp=drivesdk",
+    "sha256": "3e231cf7fab5e9dc7efbf17280b4910a4e96d2cafc508f615946d103328d1a48",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_Catalogue_Field_Register.csv",
+    "source_name": "05_Storage_Rules_Catalogue_Field_Register.csv",
+    "source_drive_id": "1-CT13dq58m9Oy9Ngt56p0ThuseJY-bk-",
+    "source_url": "https://drive.google.com/file/d/1-CT13dq58m9Oy9Ngt56p0ThuseJY-bk-/view?usp=drivesdk",
+    "sha256": "97cdac0518f2cd3a4c62ba3b0b63b81c912301ca4fa7d29ffbd43f1785c73d63",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules_Catalogue_Field_Gaps.csv",
+    "source_name": "05_Storage_Rules_Catalogue_Field_Gaps.csv",
+    "source_drive_id": "1zCOyLZZa4yQxU0gPyvZzMpwBxLZgIezB",
+    "source_url": "https://drive.google.com/file/d/1zCOyLZZa4yQxU0gPyvZzMpwBxLZgIezB/view?usp=drivesdk",
+    "sha256": "f20f37592a723ed8c974abf6eea8c3ebf542c7cbf7ac746089a84d37927fc732",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Rules.csv",
+    "source_name": "05_Storage_Rules.csv",
+    "source_drive_id": "1KJizNgQTfYHwIjbk2MvtacJnuOISbyay",
+    "source_url": "https://drive.google.com/file/d/1KJizNgQTfYHwIjbk2MvtacJnuOISbyay/view?usp=drivesdk",
+    "sha256": "4773f81cbcb4f8c9ed0ab02ab8d6b6c99d560204a48c0dac8798f37cd39d765b",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Formulas_ID_Mapping.csv",
+    "source_name": "05_Storage_Formulas_ID_Mapping.csv",
+    "source_drive_id": "1R21h3c7yQP_0mF7J8bWJ63fTcXRkVwIW",
+    "source_url": "https://drive.google.com/file/d/1R21h3c7yQP_0mF7J8bWJ63fTcXRkVwIW/view?usp=drivesdk",
+    "sha256": "a3468ca675b3e69a2953a367b513f270355b8684db9b46bd7d993fc748327be9",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Consolidation_Statistics.csv",
+    "source_name": "05_Storage_Consolidation_Statistics.csv",
+    "source_drive_id": "1_D_8IS07AcCsEx7xJCha-AEmeBMu8Gjs",
+    "source_url": "https://drive.google.com/file/d/1_D_8IS07AcCsEx7xJCha-AEmeBMu8Gjs/view?usp=drivesdk",
+    "sha256": "84635b8ab07f285289e84d99b786025d3a59dcdf6838935e8ba731739accae8e",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/CATALOGUE_AUDIT/05_Memory_Catalogue_Data_Quality.csv",
+    "source_name": "05_Memory_Catalogue_Data_Quality.csv",
+    "source_drive_id": "1rv9AaarWWPXwh90hpP7Vf7ySl5bIUaCa",
+    "source_url": "https://drive.google.com/file/d/1rv9AaarWWPXwh90hpP7Vf7ySl5bIUaCa/view?usp=drivesdk",
+    "sha256": "f4606a0327cdd751b64c4dcfa38c375b463eb6081705b6c8abe3655551e81148",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/STORAGE/05_Storage_Formulas.csv",
+    "source_name": "05_Storage_Formulas.csv",
+    "source_drive_id": "1kvwWM3W-7aGZxegbiGKt_NpoQf1xbdDr",
+    "source_url": "https://drive.google.com/file/d/1kvwWM3W-7aGZxegbiGKt_NpoQf1xbdDr/view?usp=drivesdk",
+    "sha256": "cefcf9c5a98f0275a92f528c34be9227ff914ab2083e4910ec340c55cc00545d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/CATALOGUE_AUDIT/05_Memory_Catalogue_Field_Gaps.csv",
+    "source_name": "05_Memory_Catalogue_Field_Gaps.csv",
+    "source_drive_id": "1mjCryX26PSZBxVKe9MDbfLLohNXFBPl7",
+    "source_url": "https://drive.google.com/file/d/1mjCryX26PSZBxVKe9MDbfLLohNXFBPl7/view?usp=drivesdk",
+    "sha256": "68d1f0595546f09a3003d2f0d49c2b2240eade277670b547ccaefe3e821a83e7",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/CATALOGUE_AUDIT/05_Memory_Catalogue_Field_Register.csv",
+    "source_name": "05_Memory_Catalogue_Field_Register.csv",
+    "source_drive_id": "1FlkH9ePfOQHMsoa3AGQQfVBl6pXupn3I",
+    "source_url": "https://drive.google.com/file/d/1FlkH9ePfOQHMsoa3AGQQfVBl6pXupn3I/view?usp=drivesdk",
+    "sha256": "5f99ea883460b4217c7a41f8206fc2a1fffc2acc0131e15e022104bbce0a193d",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/CATALOGUE_AUDIT/05_Memory_Catalogue_Audit_Summary.csv",
+    "source_name": "05_Memory_Catalogue_Audit_Summary.csv",
+    "source_drive_id": "1Y42Up41gdS-6PSaGUE-6NmoQMl2oHkAx",
+    "source_url": "https://drive.google.com/file/d/1Y42Up41gdS-6PSaGUE-6NmoQMl2oHkAx/view?usp=drivesdk",
+    "sha256": "5b8c9e26405b93341b24943995a0807810ad31de777fedc1c68e898e2dd52f25",
+    "role": "prototype_support"
+  },
+  {
+    "path": "prototype/rules/MEMORY/CATALOGUE_AUDIT/05_Memory_Catalogue_Readiness.csv",
+    "source_name": "05_Memory_Catalogue_Readiness.csv",
+    "source_drive_id": "1AXIASPlzSX-y9ojt-04e0Pb3NMKZq7cp",
+    "source_url": "https://drive.google.com/file/d/1AXIASPlzSX-y9ojt-04e0Pb3NMKZq7cp/view?usp=drivesdk",
+    "sha256": "e2618e21e69fd19394cb68ac8005222fe76044126dc36d02aa11883f5079cb1d",
+    "role": "prototype_support"
+  }
+]

@@ -1,0 +1,31 @@
+QA_ID,Check,Status
+MEM-QA-001,Part 1 raw rule count verified,PASS
+MEM-QA-002,Part 2 raw rule count verified,PASS
+MEM-QA-003,Part 3 raw rule count verified,PASS
+MEM-QA-004,Part 4 raw rule count verified,PASS
+MEM-QA-005,Part 5 raw rule count verified,PASS
+MEM-QA-006,Raw total equals 81,PASS
+MEM-QA-007,Final Rule_IDs are unique,PASS
+MEM-QA-008,No exact duplicate Rule_Description exists,PASS
+MEM-QA-009,No exact duplicate Rule_ID exists,PASS
+MEM-QA-010,Semantic overlaps were reviewed and documented,PASS
+MEM-QA-011,Part 5 integration rules remain distinct from underlying rules,PASS
+MEM-QA-012,Final formula book contains only Memory-owned formulas,PASS
+MEM-QA-013,External CPU/GPU/Workload formula references were preserved,PASS
+MEM-QA-014,No duplicate Memory formulas remain,PASS
+MEM-QA-015,Source register is deduplicated by source identity,PASS
+MEM-QA-016,Rule Source_ID references resolve to consolidated sources,PASS
+MEM-QA-017,Exact catalogue field names are preserved,PASS
+MEM-QA-018,Catalogue fields are deduplicated by exact field name,PASS
+MEM-QA-019,Duplicate/semantic gaps are consolidated without deleting unresolved gaps,PASS
+MEM-QA-020,FEASIBLE state is preserved,PASS
+MEM-QA-021,NOT FEASIBLE state is preserved,PASS
+MEM-QA-022,INSUFFICIENT EVIDENCE state is preserved,PASS
+MEM-QA-023,Missing evidence is not converted to failure,PASS
+MEM-QA-024,Unknown is not converted to pass,PASS
+MEM-QA-025,No unsupported universal memory multipliers retained by consolidation,PASS
+MEM-QA-026,No unsupported bandwidth/NUMA thresholds retained by consolidation,PASS
+MEM-QA-027,No arbitrary feasibility/bottleneck scores introduced,PASS
+MEM-QA-028,Research and vendor evidence remain distinguishable,PASS
+MEM-QA-029,No new Memory rules were created during consolidation,PASS
+MEM-QA-030,Parts 0–5 provenance remains traceable,PASS

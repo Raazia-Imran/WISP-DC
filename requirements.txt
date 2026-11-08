@@ -1,0 +1,2 @@
+# Core replay and tests require only the Python standard library.
+# Optional plotting dependencies are in requirements-figures.txt.

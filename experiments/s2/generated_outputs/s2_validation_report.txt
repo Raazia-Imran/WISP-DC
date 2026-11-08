@@ -1,0 +1,23 @@
+test_01_four_official_configurations_loaded (test_s2_simulation.S2SimulationTests.test_01_four_official_configurations_loaded) ... ok
+test_02_official_throughput_values_reconciled (test_s2_simulation.S2SimulationTests.test_02_official_throughput_values_reconciled) ... ok
+test_03_all_results_marked_valid (test_s2_simulation.S2SimulationTests.test_03_all_results_marked_valid) ... ok
+test_04_all_pass_official_latency_and_accuracy (test_s2_simulation.S2SimulationTests.test_04_all_pass_official_latency_and_accuracy) ... ok
+test_05_all_six_cases_match_workbook (test_s2_simulation.S2SimulationTests.test_05_all_six_cases_match_workbook) ... ok
+test_06_t3_is_infeasible_due_to_throughput_and_budget_conflict (test_s2_simulation.S2SimulationTests.test_06_t3_is_infeasible_due_to_throughput_and_budget_conflict) ... ok
+test_07_t4_relaxing_accelerator_limit_restores_feasibility (test_s2_simulation.S2SimulationTests.test_07_t4_relaxing_accelerator_limit_restores_feasibility) ... ok
+test_08_equal_count_tie_uses_minimum_excess_throughput (test_s2_simulation.S2SimulationTests.test_08_equal_count_tie_uses_minimum_excess_throughput) ... ok
+test_09_h200_selected_when_h100_misses_requirement (test_s2_simulation.S2SimulationTests.test_09_h200_selected_when_h100_misses_requirement) ... ok
+test_10_requirement_above_all_measured_results_is_infeasible (test_s2_simulation.S2SimulationTests.test_10_requirement_above_all_measured_results_is_infeasible) ... ok
+test_11_strict_ttft_can_reject_all_configurations (test_s2_simulation.S2SimulationTests.test_11_strict_ttft_can_reject_all_configurations) ... ok
+test_12_strict_tpot_can_reject_all_configurations (test_s2_simulation.S2SimulationTests.test_12_strict_tpot_can_reject_all_configurations) ... ok
+test_13_strict_accuracy_can_reject_all_configurations (test_s2_simulation.S2SimulationTests.test_13_strict_accuracy_can_reject_all_configurations) ... ok
+test_14_manual_tokens_per_accelerator_check (test_s2_simulation.S2SimulationTests.test_14_manual_tokens_per_accelerator_check) ... ok
+test_15_manual_latency_margin_check (test_s2_simulation.S2SimulationTests.test_15_manual_latency_margin_check) ... ok
+test_16_price_optimization_is_explicitly_false (test_s2_simulation.S2SimulationTests.test_16_price_optimization_is_explicitly_false) ... ok
+test_17_invalid_nonpositive_throughput_rejected (test_s2_simulation.S2SimulationTests.test_17_invalid_nonpositive_throughput_rejected) ... ok
+test_18_invalid_nonpositive_accelerator_limit_rejected (test_s2_simulation.S2SimulationTests.test_18_invalid_nonpositive_accelerator_limit_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

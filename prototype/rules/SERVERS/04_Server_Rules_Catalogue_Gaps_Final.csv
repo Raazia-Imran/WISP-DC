@@ -1,0 +1,19 @@
+Gap_ID,Missing_Field,Category,Why_Required,Priority,Status
+GAP-001,CPU_Total_Cores,CPU Integration,Needed for direct server-level CPU capacity comparisons without re-reading the CPU catalogue; current server catalogue provides CPU model/count but not aggregate cores.,High,Catalogue field gap — requires catalogue review.
+GAP-002,CPU_Total_Threads,CPU Integration,Needed for server-level thread-capacity screening; not present as a server aggregate field.,Medium,Catalogue field gap — requires catalogue review.
+GAP-003,Usable_PSU_Capacity_Under_Redundancy_W,Power/PSU,Aggregate PSU_Capacity_Total_W does not directly state usable capacity after the selected redundancy/failure mode.,High,Catalogue field gap — requires catalogue review.
+GAP-004,PCIe_Free_Slot_Count,PCIe,PCIe_Slots is descriptive; a structured count of currently free slots is not available.,High,Catalogue field gap — requires catalogue review.
+GAP-005,PCIe_Slot_Occupancy,PCIe,Required to determine whether a new NIC/DPU/storage/accelerator can actually be added to the current configuration.,High,Catalogue field gap — requires catalogue review.
+GAP-006,PCIe_Lane_Allocation_Per_Device,PCIe,Current lane availability is mostly descriptive text; structured per-device lane allocation is missing. This gap also limits verification of SRV-029 topology-sensitive server decisions.,High,Catalogue field gap — requires catalogue review.
+GAP-007,CPU_GPU_Interconnect_Bandwidth,CPU-GPU Integration,CPU_GPU_Interconnect identifies the path but does not provide a structured bandwidth value.,Medium,Catalogue field gap — requires catalogue review.
+GAP-008,CPU_GPU_Interconnect_Latency,CPU-GPU Integration,No structured CPU-to-GPU interconnect latency field.,Medium,Catalogue field gap — requires catalogue review.
+GAP-009,GPU_NIC_Topology,Networking/Accelerator Integration,No structured mapping of GPU-to-NIC locality/topology; important for communication-sensitive workloads. This gap also limits verification of SRV-029 topology-sensitive server decisions.,High,Catalogue field gap — requires catalogue review.
+GAP-010,Network_Latency,Networking,Bandwidth fields do not provide server/network latency measurements.,High,Catalogue field gap — requires catalogue review.
+GAP-011,Storage_IOPS,Storage,Storage capacity/interface do not establish IOPS capability.,High,Catalogue field gap — requires catalogue review.
+GAP-012,Storage_Throughput_GBps,Storage,Storage capacity/interface do not establish measured storage throughput.,High,Catalogue field gap — requires catalogue review.
+GAP-013,Storage_RAID_Configuration,Storage,No structured server-level RAID configuration field.,Medium,Catalogue field gap — requires catalogue review.
+GAP-014,NUMA_Topology,CPU/Memory Integration,No structured NUMA topology or CPU-memory locality field. This gap also limits verification of SRV-029 topology-sensitive server decisions.,High,Catalogue field gap — requires catalogue review.
+GAP-015,Server_Benchmark_Result,Performance Evidence,No structured server benchmark performance result field.,High,Catalogue field gap — requires catalogue review.
+GAP-016,Benchmark_Workload_Model,Performance Evidence,No benchmark model/workload identifier field.,High,Catalogue field gap — requires catalogue review.
+GAP-017,Benchmark_Batch_or_Concurrency,Performance Evidence,No benchmark batch-size/concurrency context field.,High,Catalogue field gap — requires catalogue review.
+GAP-018,Benchmark_Latency_or_Throughput,Performance Evidence,No structured latency/throughput metric field for server-level benchmark evidence.,High,Catalogue field gap — requires catalogue review.

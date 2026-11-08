@@ -1,0 +1,12 @@
+Memory_Domain,Readiness,Basis,Status_Interpretation
+Memory Capacity,READY,"Server, CPU and GPU catalogues provide host/system maximum or configured memory and accelerator-memory capacity fields.",Audit classification only — no Memory Rules or Formulas created.
+Memory Type/Technology,READY,Server and CPU catalogues provide DDR5/type fields; GPU catalogue provides HBM/GDDR/on-chip memory type.,Audit classification only — no Memory Rules or Formulas created.
+Memory Configuration,PARTIALLY READY,"Memory channels, configurations and supported-memory descriptions exist, but structured DIMM slot/population data is missing.",Audit classification only — no Memory Rules or Formulas created.
+Memory Bandwidth,PARTIALLY READY,"Server/CPU/GPU bandwidth fields exist, but server values are derived, CPU values are mixed derived/verified, and no measured sustained bandwidth is recorded.",Audit classification only — no Memory Rules or Formulas created.
+GPU Memory,READY,"GPU catalogue provides per-accelerator and aggregate memory, type, bandwidth and configuration fields; server catalogue also provides GPU-memory capacity fields.",Audit classification only — no Memory Rules or Formulas created.
+Host/CPU Memory,PARTIALLY READY,"Server and CPU catalogues provide capacity/type/channel/bandwidth/ECC information, but per-socket installed capacity and structured population details are incomplete.",Audit classification only — no Memory Rules or Formulas created.
+NUMA/Locality,FIELD GAP,No structured NUMA topology or local/remote memory information was identified across the ten catalogues.,Audit classification only — no Memory Rules or Formulas created.
+Memory Performance,PARTIALLY READY,"Hardware bandwidth fields exist, but measured sustained bandwidth, latency and measurement context are absent.",Audit classification only — no Memory Rules or Formulas created.
+Training Memory,FIELD GAP,No workload-level training memory demand field exists; this is a future workload/rule-level input as expected.,Audit classification only — no Memory Rules or Formulas created.
+Inference Memory,FIELD GAP,No workload-level inference memory demand field exists; this is a future workload/rule-level input as expected.,Audit classification only — no Memory Rules or Formulas created.
+Memory Feasibility,FIELD GAP,"Hardware capacity inputs exist, but workload memory demand and measured application consumption are not catalogue fields; feasibility logic belongs to later Parts 1–5.",Audit classification only — no Memory Rules or Formulas created.

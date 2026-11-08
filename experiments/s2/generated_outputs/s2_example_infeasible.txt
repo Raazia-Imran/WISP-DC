@@ -1,0 +1,13 @@
+WISP-DC S2 AI-Inference Feasibility Simulation
+Input: throughput=20,000.00 output tokens/s, max accelerators=2, TTFT≤2.0 s, TPOT≤0.2 s
+
+Configuration checks:
+  HPE-GH200-1   FAIL: throughput
+  HPE-GH200-2   FAIL: throughput
+  HPE-H100-8    FAIL: accelerator_budget
+  HPE-H200-8    FAIL: accelerator_budget
+
+Status: Infeasible
+Recommendation: None
+Reason: No evaluated configuration satisfies all hard constraints.
+Cost note: no monetary cheapest-system claim was made.

@@ -1,0 +1,82 @@
+Original_Part,Original_Rule_ID,Canonical_Rule_ID,Mapping_Status,Merge_Target,Reason
+1,MEM-P1-001,MEM-P1-001,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+1,MEM-P1-002,MEM-P1-002,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+1,MEM-P1-003,MEM-P1-003,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+1,MEM-P1-004,MEM-P1-004,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+1,MEM-P1-005,MEM-P1-005,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+1,MEM-P1-006,MEM-P1-006,RETAINED,,Broad training-memory requirement; retained because Part 2 decomposes the requirement into distinct components.
+1,MEM-P1-007,MEM-P1-007,RETAINED,,Broad activation-memory dependency; retained because Part 2 adds detailed training activation evidence.
+1,MEM-P1-008,MEM-P1-008,RETAINED,,General checkpointing dependency; retained because Part 2 applies the training-memory implementation detail.
+1,MEM-P1-009,MEM-P1-009,RETAINED,,General quantized/fine-tuning representation rule; retained because Part 2 adds parameter-efficient trainable-state accounting.
+1,MEM-P1-010,MEM-P1-010,RETAINED,,General inference runtime-memory requirement; retained because Part 3 decomposes runtime/KV/placement logic.
+1,MEM-P1-011,MEM-P1-011,RETAINED,,General KV-cache dependency; retained because Part 3 adds context/batch/concurrency detail.
+1,MEM-P1-012,MEM-P1-012,RETAINED,,General distributed replicated-memory rule; retained because Part 2 specializes it for training.
+1,MEM-P1-013,MEM-P1-013,RETAINED,,General sharded-memory placement rule; retained because Part 2 specializes training sharding.
+1,MEM-P1-014,MEM-P1-014,RETAINED,,Underlying capacity feasibility rule; retained because Part 5 performs final integration rather than recalculating capacity.
+2,MEM-P2-001,MEM-P2-001,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-002,MEM-P2-002,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-003,MEM-P2-003,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-004,MEM-P2-004,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-005,MEM-P2-005,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-006,MEM-P2-006,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-007,MEM-P2-007,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-008,MEM-P2-008,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-009,MEM-P2-009,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-010,MEM-P2-010,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-011,MEM-P2-011,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-012,MEM-P2-012,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-013,MEM-P2-013,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+2,MEM-P2-014,MEM-P2-014,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-001,MEM-P3-001,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-002,MEM-P3-002,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-003,MEM-P3-003,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-004,MEM-P3-004,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-005,MEM-P3-005,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-006,MEM-P3-006,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-007,MEM-P3-007,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-008,MEM-P3-008,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-009,MEM-P3-009,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-010,MEM-P3-010,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-011,MEM-P3-011,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-012,MEM-P3-012,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-013,MEM-P3-013,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-014,MEM-P3-014,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-015,MEM-P3-015,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-016,MEM-P3-016,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-017,MEM-P3-017,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+3,MEM-P3-018,MEM-P3-018,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-001,MEM-P4-001,RETAINED,,General theoretical-vs-sustained bandwidth rule; retained because MEM-P4-011 is specifically GPU hardware context.
+4,MEM-P4-002,MEM-P4-002,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-003,MEM-P4-003,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-004,MEM-P4-004,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-005,MEM-P4-005,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-006,MEM-P4-006,RETAINED,,Part 4 locality rule; retained because Part 5 converts its output into a final locality bottleneck state.
+4,MEM-P4-007,MEM-P4-007,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-008,MEM-P4-008,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-009,MEM-P4-009,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-010,MEM-P4-010,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-011,MEM-P4-011,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-012,MEM-P4-012,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-013,MEM-P4-013,RETAINED,,Part 4 bandwidth-bottleneck evidence rule; retained because Part 5 consumes its result as an integration state.
+4,MEM-P4-014,MEM-P4-014,RETAINED,,"Training bandwidth implication; retained because Part 2 covers memory capacity, while Part 4 covers bandwidth implications."
+4,MEM-P4-015,MEM-P4-015,RETAINED,,"Inference bandwidth implication; retained because Part 3 covers memory capacity, while Part 4 covers bandwidth implications."
+4,MEM-P4-016,MEM-P4-016,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-017,MEM-P4-017,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+4,MEM-P4-018,MEM-P4-018,RETAINED,,Part 4 evidence-sufficiency rule; retained because Part 5 applies evidence completeness to the final multi-constraint decision.
+5,MEM-P5-001,MEM-P5-001,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-002,MEM-P5-002,RETAINED,,Final integration classification; not a duplicate of Part 1 capacity failure because it consumes the prior result.
+5,MEM-P5-003,MEM-P5-003,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-004,MEM-P5-004,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-005,MEM-P5-005,RETAINED,,Final training-placement integration; not a duplicate of Part 2 because it maps prior results to final decision states.
+5,MEM-P5-006,MEM-P5-006,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-007,MEM-P5-007,RETAINED,,Final inference-placement integration; not a duplicate of Part 3 because it maps prior results to final decision states.
+5,MEM-P5-008,MEM-P5-008,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-009,MEM-P5-009,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-010,MEM-P5-010,RETAINED,,Final placement integration; not a duplicate of underlying per-device placement rules.
+5,MEM-P5-011,MEM-P5-011,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-012,MEM-P5-012,RETAINED,,Global multi-constraint decision logic; distinct from every individual constraint rule.
+5,MEM-P5-013,MEM-P5-013,RETAINED,,Global FEASIBLE state; distinct from individual PASS rules.
+5,MEM-P5-014,MEM-P5-014,RETAINED,,Global INSUFFICIENT EVIDENCE state; distinct from part-specific evidence gaps.
+5,MEM-P5-015,MEM-P5-015,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-016,MEM-P5-016,RETAINED,,No semantic duplicate identified; retained as a distinct rule.
+5,MEM-P5-017,MEM-P5-017,RETAINED,,No semantic duplicate identified; retained as a distinct rule.

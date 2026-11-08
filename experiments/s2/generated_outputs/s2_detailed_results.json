@@ -1,0 +1,720 @@
+[
+  {
+    "case_id": "T1",
+    "requirement": {
+      "case_id": "T1",
+      "required_output_tokens_per_s": 4000.0,
+      "max_accelerators": 1,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Feasible",
+    "recommendation": "HPE-GH200-1",
+    "reason": "Minimum accelerator count among evaluated configurations satisfying validity, throughput, accelerator, latency, and accuracy constraints; minimum excess throughput resolves equal-count ties.",
+    "feasible_configurations": [
+      "HPE-GH200-1"
+    ],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": 327.6800000000003,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": 4674.58,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": 26498.87,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": 27281.09,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "HPE-GH200-1",
+    "expected_status": "Feasible",
+    "matches_expected": true
+  },
+  {
+    "case_id": "T2",
+    "requirement": {
+      "case_id": "T2",
+      "required_output_tokens_per_s": 8000.0,
+      "max_accelerators": 2,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Feasible",
+    "recommendation": "HPE-GH200-2",
+    "reason": "Minimum accelerator count among evaluated configurations satisfying validity, throughput, accelerator, latency, and accuracy constraints; minimum excess throughput resolves equal-count ties.",
+    "feasible_configurations": [
+      "HPE-GH200-2"
+    ],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": -3672.3199999999997,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": 674.5799999999999,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": 22498.87,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": 23281.09,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "HPE-GH200-2",
+    "expected_status": "Feasible",
+    "matches_expected": true
+  },
+  {
+    "case_id": "T3",
+    "requirement": {
+      "case_id": "T3",
+      "required_output_tokens_per_s": 20000.0,
+      "max_accelerators": 2,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Infeasible",
+    "recommendation": "None",
+    "reason": "No evaluated configuration satisfies all hard constraints.",
+    "feasible_configurations": [],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": -15672.32,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": -11325.42,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": 10498.869999999999,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": 11281.09,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": false,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "accelerator_budget"
+        ],
+        "feasible": false
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "None",
+    "expected_status": "Infeasible",
+    "matches_expected": true
+  },
+  {
+    "case_id": "T4",
+    "requirement": {
+      "case_id": "T4",
+      "required_output_tokens_per_s": 20000.0,
+      "max_accelerators": 8,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Feasible",
+    "recommendation": "HPE-H100-8",
+    "reason": "Minimum accelerator count among evaluated configurations satisfying validity, throughput, accelerator, latency, and accuracy constraints; minimum excess throughput resolves equal-count ties.",
+    "feasible_configurations": [
+      "HPE-H100-8",
+      "HPE-H200-8"
+    ],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": -15672.32,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": -11325.42,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": 10498.869999999999,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": 11281.09,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "HPE-H100-8",
+    "expected_status": "Feasible",
+    "matches_expected": true
+  },
+  {
+    "case_id": "T5",
+    "requirement": {
+      "case_id": "T5",
+      "required_output_tokens_per_s": 30000.0,
+      "max_accelerators": 8,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Feasible",
+    "recommendation": "HPE-H100-8",
+    "reason": "Minimum accelerator count among evaluated configurations satisfying validity, throughput, accelerator, latency, and accuracy constraints; minimum excess throughput resolves equal-count ties.",
+    "feasible_configurations": [
+      "HPE-H100-8",
+      "HPE-H200-8"
+    ],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": -25672.32,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": -21325.42,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": 498.869999999999,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": 1281.0900000000001,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": true,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [],
+        "feasible": true
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "HPE-H100-8",
+    "expected_status": "Feasible",
+    "matches_expected": true
+  },
+  {
+    "case_id": "T6",
+    "requirement": {
+      "case_id": "T6",
+      "required_output_tokens_per_s": 32000.0,
+      "max_accelerators": 8,
+      "max_ttft_s": 2.0,
+      "max_tpot_s": 0.2,
+      "required_rouge1": 43.986888,
+      "required_rouge2": 21.814848,
+      "required_rougeL": 28.330038
+    },
+    "status": "Infeasible",
+    "recommendation": "None",
+    "reason": "No evaluated configuration satisfies all hard constraints.",
+    "feasible_configurations": [],
+    "evaluations": [
+      {
+        "config_id": "HPE-GH200-1",
+        "accelerators": 1,
+        "output_tokens_per_s": 4327.68,
+        "throughput_surplus_tokens_per_s": -27672.32,
+        "p99_ttft_s": 1.889464313,
+        "ttft_margin_s": 0.11053568700000005,
+        "p99_tpot_s": 0.19089451,
+        "tpot_margin_s": 0.009105490000000022,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-GH200-2",
+        "accelerators": 2,
+        "output_tokens_per_s": 8674.58,
+        "throughput_surplus_tokens_per_s": -23325.42,
+        "p99_ttft_s": 0.806351671,
+        "ttft_margin_s": 1.193648329,
+        "p99_tpot_s": 0.171224382,
+        "tpot_margin_s": 0.028775618000000003,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H100-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 30498.87,
+        "throughput_surplus_tokens_per_s": -1501.130000000001,
+        "p99_ttft_s": 1.295043805,
+        "ttft_margin_s": 0.7049561950000001,
+        "p99_tpot_s": 0.142883769,
+        "tpot_margin_s": 0.05711623100000002,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      },
+      {
+        "config_id": "HPE-H200-8",
+        "accelerators": 8,
+        "output_tokens_per_s": 31281.09,
+        "throughput_surplus_tokens_per_s": -718.9099999999999,
+        "p99_ttft_s": 0.666012302,
+        "ttft_margin_s": 1.333987698,
+        "p99_tpot_s": 0.168543199,
+        "tpot_margin_s": 0.031456801000000006,
+        "checks": {
+          "valid_result": true,
+          "throughput": false,
+          "accelerator_budget": true,
+          "ttft": true,
+          "tpot": true,
+          "rouge1": true,
+          "rouge2": true,
+          "rougeL": true
+        },
+        "failed_checks": [
+          "throughput"
+        ],
+        "feasible": false
+      }
+    ],
+    "price_optimization_performed": false,
+    "price_limitation": "Comparable dated full-system prices are unavailable; this result is minimum-resource technical feasibility, not verified cheapest purchase price.",
+    "expected_recommendation": "None",
+    "expected_status": "Infeasible",
+    "matches_expected": true
+  }
+]

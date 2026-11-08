@@ -1,0 +1,3 @@
+Field_ID,Catalogue_Name,Exact_Field_Name,Storage_Domain,Field_Description,Data_Type,Unit,Example_Value,Number_of_Records,Missing_Count,Missing_Percentage,Source_Field_or_Provenance,Can_Support_Rule,Rule_Domain_Supported,Evidence_Status,Parts_Referencing_Field,Part_Use,Reconciliation_Aware
+STCF-P1-008,STORAGE(6).CSV,Capacity_Usable_TB,Capacity,Usable capacity in TB where provided.,Numeric,TB,UNKNOWN,21,21,100.0,Storage catalogue,NO,Usable capacity,FIELD GAP / UNKNOWN,Part 1; Part 5,Integration input/evidence gate,YES
+STCF-P1-012,STORAGE(6).CSV,Technology,Storage Type,Technology descriptor; reconciliation-aware.,Text,,NVMe,21,0,0.0,Storage catalogue,YES,Type context,CONTEXT/CONFLICT,Part 1,,

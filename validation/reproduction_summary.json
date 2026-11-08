@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-11-08T10:13:36.367603+00:00",
+  "python": "3.12.14",
+  "s1_retained_checks": 6,
+  "s1_passed": 6,
+  "s2_unittest_checks": 18,
+  "s2_passed": 18,
+  "total_supported_checks": 24,
+  "s1_deadline_cases": 8,
+  "s2_expected_cases_matched": 6,
+  "s2_sensitivity_cases": 99,
+  "s1_excluded_price_cases": [
+    "CT-07",
+    "CT-08",
+    "CT-09"
+  ],
+  "numeric_price_optimization_performed": false,
+  "local_resnet_training_executed": false,
+  "local_llama_inference_executed": false,
+  "scope": "Offline replay of supplied benchmark extracts; no independent physical measurement."
+}

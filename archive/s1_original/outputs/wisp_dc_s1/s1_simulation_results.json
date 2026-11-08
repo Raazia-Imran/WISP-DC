@@ -1,0 +1,693 @@
+{
+  "assumptions": {
+    "deadlines_min": [
+      3,
+      5,
+      8,
+      10,
+      15,
+      20,
+      30,
+      60
+    ],
+    "pue_base": 1.4,
+    "pue_values": [
+      1.2,
+      1.4,
+      1.6
+    ],
+    "runs_per_year": 365,
+    "rack_limits_kw": [
+      40,
+      80,
+      120
+    ],
+    "budgets_eur_run": [
+      15,
+      20,
+      25,
+      30
+    ],
+    "redundancy": "None for benchmark-reproduction training scenario"
+  },
+  "results": [
+    {
+      "config_id": "DELL-4G",
+      "deployment": "On-prem",
+      "gpus": 4,
+      "nodes": 1,
+      "time_min": 26.881916666666665,
+      "cv": 0.0005167598511726428,
+      "calibrated_it_kw": null,
+      "it_energy_kwh_run": null,
+      "facility_energy_kwh_run": null,
+      "annual_facility_energy_kwh": null,
+      "heat_btu_h": null,
+      "offpeak_pkr_run": null,
+      "peak_pkr_run": null,
+      "annual_offpeak_pkr": null,
+      "annual_peak_pkr": null,
+      "cloud_cost_eur_run": null,
+      "racks_base": null,
+      "rack_status": "Incomplete: exact server power unavailable"
+    },
+    {
+      "config_id": "DELL-8G",
+      "deployment": "On-prem",
+      "gpus": 8,
+      "nodes": 1,
+      "time_min": 13.16277777777778,
+      "cv": 0.026367460102879017,
+      "calibrated_it_kw": 6.26,
+      "it_energy_kwh_run": 1.3733164814814818,
+      "facility_energy_kwh_run": 1.9226430740740743,
+      "annual_facility_energy_kwh": 701.7647220370371,
+      "heat_btu_h": 21359.9964,
+      "offpeak_pkr_run": 45.508961563333344,
+      "peak_pkr_run": 68.59990488296297,
+      "annual_offpeak_pkr": 16610.77097061667,
+      "annual_peak_pkr": 25038.965282281486,
+      "cloud_cost_eur_run": null,
+      "racks_base": 1,
+      "rack_status": "Feasible"
+    },
+    {
+      "config_id": "HPE-8G",
+      "deployment": "On-prem",
+      "gpus": 8,
+      "nodes": 1,
+      "time_min": 13.619277777777778,
+      "cv": 0.0008467305517312623,
+      "calibrated_it_kw": 6.26,
+      "it_energy_kwh_run": 1.4209446481481482,
+      "facility_energy_kwh_run": 1.9893225074074075,
+      "annual_facility_energy_kwh": 726.1027152037037,
+      "heat_btu_h": 21359.9964,
+      "offpeak_pkr_run": 47.087263750333335,
+      "peak_pkr_run": 70.9790270642963,
+      "annual_offpeak_pkr": 17186.85126887167,
+      "annual_peak_pkr": 25907.34487846815,
+      "cloud_cost_eur_run": null,
+      "racks_base": 1,
+      "rack_status": "Feasible"
+    },
+    {
+      "config_id": "HPE-16G",
+      "deployment": "On-prem",
+      "gpus": 16,
+      "nodes": 2,
+      "time_min": 7.929883333333333,
+      "cv": 0.0015811131507611946,
+      "calibrated_it_kw": 12.52,
+      "it_energy_kwh_run": 1.6547023222222221,
+      "facility_energy_kwh_run": 2.3165832511111106,
+      "annual_facility_energy_kwh": 845.5528866555554,
+      "heat_btu_h": 42719.9928,
+      "offpeak_pkr_run": 54.833525553799994,
+      "peak_pkr_run": 82.65569039964443,
+      "annual_offpeak_pkr": 20014.236827137,
+      "annual_peak_pkr": 30169.32699587022,
+      "cloud_cost_eur_run": null,
+      "racks_base": 1,
+      "rack_status": "Feasible"
+    },
+    {
+      "config_id": "OCI-8G",
+      "deployment": "Cloud",
+      "gpus": 8,
+      "nodes": 1,
+      "time_min": 13.272505555555556,
+      "cv": 0.0005044463873435438,
+      "calibrated_it_kw": 6.26,
+      "it_energy_kwh_run": 1.3847647462962962,
+      "facility_energy_kwh_run": 1.9386706448148145,
+      "annual_facility_energy_kwh": 707.6147853574073,
+      "heat_btu_h": 21359.9964,
+      "offpeak_pkr_run": 45.88833416276666,
+      "peak_pkr_run": 69.17176860699259,
+      "annual_offpeak_pkr": 16749.24196940983,
+      "annual_peak_pkr": 25247.695541552293,
+      "cloud_cost_eur_run": 16.45790688888889,
+      "racks_base": null,
+      "rack_status": "Provider managed"
+    },
+    {
+      "config_id": "OCI-64G",
+      "deployment": "Cloud",
+      "gpus": 64,
+      "nodes": 8,
+      "time_min": 2.4832111111111113,
+      "cv": 0.0004343736975368236,
+      "calibrated_it_kw": 50.08,
+      "it_energy_kwh_run": 2.072653540740741,
+      "facility_energy_kwh_run": 2.9017149570370373,
+      "annual_facility_energy_kwh": 1059.1259593185187,
+      "heat_btu_h": 170879.9712,
+      "offpeak_pkr_run": 68.68359303306667,
+      "peak_pkr_run": 103.53318966708149,
+      "annual_offpeak_pkr": 25069.511457069337,
+      "annual_peak_pkr": 37789.614228484745,
+      "cloud_cost_eur_run": 24.633454222222227,
+      "racks_base": null,
+      "rack_status": "Provider managed"
+    }
+  ],
+  "deadline_sensitivity": [
+    {
+      "deadline_min": 3,
+      "feasible_count": 1,
+      "minimum_gpu_config": "OCI-64G",
+      "minimum_gpus": 64,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 5,
+      "feasible_count": 1,
+      "minimum_gpu_config": "OCI-64G",
+      "minimum_gpus": 64,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 8,
+      "feasible_count": 2,
+      "minimum_gpu_config": "HPE-16G",
+      "minimum_gpus": 16,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 10,
+      "feasible_count": 2,
+      "minimum_gpu_config": "HPE-16G",
+      "minimum_gpus": 16,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 15,
+      "feasible_count": 5,
+      "minimum_gpu_config": "DELL-8G",
+      "minimum_gpus": 8,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 20,
+      "feasible_count": 5,
+      "minimum_gpu_config": "DELL-8G",
+      "minimum_gpus": 8,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 30,
+      "feasible_count": 6,
+      "minimum_gpu_config": "DELL-4G",
+      "minimum_gpus": 4,
+      "fastest_config": "OCI-64G"
+    },
+    {
+      "deadline_min": 60,
+      "feasible_count": 6,
+      "minimum_gpu_config": "DELL-4G",
+      "minimum_gpus": 4,
+      "fastest_config": "OCI-64G"
+    }
+  ],
+  "pue_sensitivity": [
+    {
+      "pue": 1.2,
+      "config_id": "DELL-8G",
+      "facility_energy_kwh_run": 1.647979777777778,
+      "annual_energy_kwh": 601.5126188888889
+    },
+    {
+      "pue": 1.2,
+      "config_id": "HPE-8G",
+      "facility_energy_kwh_run": 1.7051335777777779,
+      "annual_energy_kwh": 622.3737558888889
+    },
+    {
+      "pue": 1.2,
+      "config_id": "HPE-16G",
+      "facility_energy_kwh_run": 1.9856427866666664,
+      "annual_energy_kwh": 724.7596171333332
+    },
+    {
+      "pue": 1.2,
+      "config_id": "OCI-8G",
+      "facility_energy_kwh_run": 1.6617176955555555,
+      "annual_energy_kwh": 606.5269588777777
+    },
+    {
+      "pue": 1.2,
+      "config_id": "OCI-64G",
+      "facility_energy_kwh_run": 2.487184248888889,
+      "annual_energy_kwh": 907.8222508444445
+    },
+    {
+      "pue": 1.4,
+      "config_id": "DELL-8G",
+      "facility_energy_kwh_run": 1.9226430740740743,
+      "annual_energy_kwh": 701.7647220370371
+    },
+    {
+      "pue": 1.4,
+      "config_id": "HPE-8G",
+      "facility_energy_kwh_run": 1.9893225074074075,
+      "annual_energy_kwh": 726.1027152037037
+    },
+    {
+      "pue": 1.4,
+      "config_id": "HPE-16G",
+      "facility_energy_kwh_run": 2.3165832511111106,
+      "annual_energy_kwh": 845.5528866555554
+    },
+    {
+      "pue": 1.4,
+      "config_id": "OCI-8G",
+      "facility_energy_kwh_run": 1.9386706448148145,
+      "annual_energy_kwh": 707.6147853574073
+    },
+    {
+      "pue": 1.4,
+      "config_id": "OCI-64G",
+      "facility_energy_kwh_run": 2.9017149570370373,
+      "annual_energy_kwh": 1059.1259593185187
+    },
+    {
+      "pue": 1.6,
+      "config_id": "DELL-8G",
+      "facility_energy_kwh_run": 2.197306370370371,
+      "annual_energy_kwh": 802.0168251851854
+    },
+    {
+      "pue": 1.6,
+      "config_id": "HPE-8G",
+      "facility_energy_kwh_run": 2.2735114370370373,
+      "annual_energy_kwh": 829.8316745185186
+    },
+    {
+      "pue": 1.6,
+      "config_id": "HPE-16G",
+      "facility_energy_kwh_run": 2.6475237155555558,
+      "annual_energy_kwh": 966.3461561777779
+    },
+    {
+      "pue": 1.6,
+      "config_id": "OCI-8G",
+      "facility_energy_kwh_run": 2.215623594074074,
+      "annual_energy_kwh": 808.7026118370369
+    },
+    {
+      "pue": 1.6,
+      "config_id": "OCI-64G",
+      "facility_energy_kwh_run": 3.3162456651851855,
+      "annual_energy_kwh": 1210.4296677925927
+    }
+  ],
+  "rack_sensitivity": [
+    {
+      "rack_limit_kw": 40,
+      "config_id": "DELL-8G",
+      "planning_kw": 11.5,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 40,
+      "config_id": "HPE-8G",
+      "planning_kw": 12.0,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 40,
+      "config_id": "HPE-16G",
+      "planning_kw": 24.0,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 80,
+      "config_id": "DELL-8G",
+      "planning_kw": 11.5,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 80,
+      "config_id": "HPE-8G",
+      "planning_kw": 12.0,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 80,
+      "config_id": "HPE-16G",
+      "planning_kw": 24.0,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 120,
+      "config_id": "DELL-8G",
+      "planning_kw": 11.5,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 120,
+      "config_id": "HPE-8G",
+      "planning_kw": 12.0,
+      "racks": 1,
+      "status": "Feasible"
+    },
+    {
+      "rack_limit_kw": 120,
+      "config_id": "HPE-16G",
+      "planning_kw": 24.0,
+      "racks": 1,
+      "status": "Feasible"
+    }
+  ],
+  "budget_feasibility": [
+    {
+      "deadline_min": 3,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 3,
+      "budget_eur_run": 20,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 3,
+      "budget_eur_run": 25,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 3,
+      "budget_eur_run": 30,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 5,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 5,
+      "budget_eur_run": 20,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 5,
+      "budget_eur_run": 25,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 5,
+      "budget_eur_run": 30,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 8,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 8,
+      "budget_eur_run": 20,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 8,
+      "budget_eur_run": 25,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 8,
+      "budget_eur_run": 30,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 10,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 10,
+      "budget_eur_run": 20,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 10,
+      "budget_eur_run": 25,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 10,
+      "budget_eur_run": 30,
+      "oci8_status": "Fail",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-64G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 15,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 15,
+      "budget_eur_run": 20,
+      "oci8_status": "Pass",
+      "oci64_status": "Fail",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 15,
+      "budget_eur_run": 25,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 15,
+      "budget_eur_run": 30,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 20,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 20,
+      "budget_eur_run": 20,
+      "oci8_status": "Pass",
+      "oci64_status": "Fail",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 20,
+      "budget_eur_run": 25,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 20,
+      "budget_eur_run": 30,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 30,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 30,
+      "budget_eur_run": 20,
+      "oci8_status": "Pass",
+      "oci64_status": "Fail",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 30,
+      "budget_eur_run": 25,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 30,
+      "budget_eur_run": 30,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 60,
+      "budget_eur_run": 15,
+      "oci8_status": "Fail",
+      "oci64_status": "Fail",
+      "recommendation": "No evaluated cloud option",
+      "reason": "No option satisfies both constraints"
+    },
+    {
+      "deadline_min": 60,
+      "budget_eur_run": 20,
+      "oci8_status": "Pass",
+      "oci64_status": "Fail",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 60,
+      "budget_eur_run": 25,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    },
+    {
+      "deadline_min": 60,
+      "budget_eur_run": 30,
+      "oci8_status": "Pass",
+      "oci64_status": "Pass",
+      "recommendation": "OCI-8G",
+      "reason": "Lowest-cost evaluated cloud option satisfying both constraints"
+    }
+  ],
+  "validation": [
+    {
+      "test_id": "CT-01",
+      "test": "2-minute deadline",
+      "expected": "No configuration feasible",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-02",
+      "test": "3-minute deadline",
+      "expected": "Only OCI-64G feasible",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-03",
+      "test": "10 kW rack limit for 11.5 kW Dell node",
+      "expected": "Reject",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-04",
+      "test": "Run-status audit detects the Dell-8G aborted log",
+      "expected": "Exactly one aborted log is flagged, not hidden",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-05",
+      "test": "PUE increase raises facility energy",
+      "expected": "Strictly increasing",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-06",
+      "test": "Cloud rack placement",
+      "expected": "Provider managed, not fabricated",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-07",
+      "test": "15-min deadline + EUR 20/run budget",
+      "expected": "Recommend OCI-8G",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-08",
+      "test": "5-min deadline + EUR 20/run budget",
+      "expected": "No evaluated cloud option",
+      "actual": "Pass"
+    },
+    {
+      "test_id": "CT-09",
+      "test": "5-min deadline + EUR 25/run budget",
+      "expected": "Recommend OCI-64G",
+      "actual": "Pass"
+    }
+  ],
+  "manual_check": {
+    "config_id": "DELL-8G",
+    "time_h": 0.21937962962962967,
+    "it_energy_kwh": 1.3733164814814818,
+    "facility_energy_kwh": 1.9226430740740743,
+    "heat_btu_h": 21359.9964,
+    "annual_energy_kwh": 701.7647220370371,
+    "model_facility_energy_kwh": 1.9226430740740743
+  }
+}

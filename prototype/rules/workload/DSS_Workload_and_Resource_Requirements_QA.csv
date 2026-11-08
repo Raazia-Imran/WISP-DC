@@ -1,0 +1,26 @@
+QA_ID,Check,Status,Scope,Details
+QA-001,All relevant source files identified,PASS,Master Package,81 relevant files inventoried from the workspace and supplied master instructions.
+QA-002,All selected rule records preserved,PASS,Master Package,209 rule records retained from 9 canonical rule inputs; duplicate/working files remain traceable in the manifest.
+QA-003,Exact duplicate rule content analysis,PASS,Master Package,No exact normalized Rule_Name + Rule_Description duplicates found among the 209 selected rule records.
+QA-004,Original Rule_ID conflicts identified,PASS,Master Package,8 Original_Rule_ID values have two distinct definitions (16 rows); all were retained with separate Master_Rule_IDs.
+QA-005,Historical semantic duplicate findings preserved,PASS,Master Package,39 historical semantic-duplicate findings are preserved in the overlap file; they did not cause silent deletion of current rules.
+QA-006,Rule merges,PASS,Master Package,0 rule merges.
+QA-007,Formula consolidation,PASS,Master Package,97 raw formula records consolidated to 96 final formula records; 1 exact duplicate expression merged.
+QA-008,Formula reference validity,PASS,Master Package,All formula-like references found in rule records resolve to canonical Formula_IDs; 125 rules have mapped formula dependencies.
+QA-009,Source register consolidation,PASS,Master Package,107 source-register records consolidated to 88 unique source identities.
+QA-010,Rule source mapping,REVIEW,Master Package,28 rule records contain nonempty source references that do not resolve to the consolidated source register.
+QA-011,Formula source mapping,REVIEW,Master Package,62 formula records contain source information that does not resolve to the consolidated source register; original fields are preserved.
+QA-012,Rule Book traceability,PASS,Master Package,209/209 master rules represented.
+QA-013,Classification traceability,PASS,Master Package,209/209 master rules represented.
+QA-014,Gap preservation,PASS,Master Package,92 existing gap records consolidated; no gap converted into a rule.
+QA-015,Overlap preservation,PASS,Master Package,112 overlap/duplicate analysis records consolidated.
+QA-016,No invented research papers,PASS,Master Package,No new research papers were added.
+QA-017,Source hierarchy preserved,PASS,Master Package,"Source_Type, Evidence_Level, Research_Technical and related metadata are preserved where supplied."
+QA-018,No standalone GPU Rule Catalogue import,PASS,Master Package,Dedicated GPU Rule Catalogue was not imported as a separate master rule set.
+QA-019,No standalone CPU Rule Catalogue import,PASS,Master Package,Dedicated CPU Rule Catalogue was not imported as a separate master rule set.
+QA-020,No compatibility catalogue duplication,PASS,Master Package,Dedicated compatibility catalogue was not imported.
+QA-021,Downstream domain boundary,PASS,Master Package,"Power, cooling, QoS/SLA, sustainability, carbon, finance, regional and optimization rules were not imported."
+QA-022,Threshold preservation,PASS,Master Package,Threshold/value fields were carried from source records without introducing new numeric thresholds.
+QA-023,Formula preservation,PASS,Master Package,Formula expressions were carried from existing formula artifacts; canonical IDs are traceability-only.
+QA-024,No silent correction,PASS,Master Package,"Conflicts, unresolved source mappings, formula duplicate mapping and historical overlap findings are documented."
+QA-025,Supporting artifact preservation,PASS,Master Package,81 relevant input files are inventoried; exact byte-identical duplicates are documented instead of copied twice.

@@ -1,0 +1,38 @@
+[
+  {
+    "test_id": "CT-01",
+    "test": "2-minute deadline",
+    "expected": "No configuration feasible",
+    "actual": "Pass"
+  },
+  {
+    "test_id": "CT-02",
+    "test": "3-minute deadline",
+    "expected": "Only OCI-64G feasible",
+    "actual": "Pass"
+  },
+  {
+    "test_id": "CT-03",
+    "test": "10 kW rack limit for 11.5 kW Dell node",
+    "expected": "Reject",
+    "actual": "Pass"
+  },
+  {
+    "test_id": "CT-04",
+    "test": "Run-status audit detects the Dell-8G aborted log",
+    "expected": "Exactly one aborted log is flagged, not hidden",
+    "actual": "Pass"
+  },
+  {
+    "test_id": "CT-05",
+    "test": "PUE increase raises facility energy",
+    "expected": "Strictly increasing",
+    "actual": "Pass"
+  },
+  {
+    "test_id": "CT-06",
+    "test": "Cloud rack placement",
+    "expected": "Provider managed, not fabricated",
+    "actual": "Pass"
+  }
+]

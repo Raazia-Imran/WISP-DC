@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#657789"/></marker>
+  <style>
+    .title{font:700 28px Arial;fill:#17324D}.group{font:700 18px Arial;fill:#17324D}
+    .h{font:700 17px Arial;fill:#17324D}.t{font:14px Arial;fill:#243443}
+    .future{font:italic 13px Arial;fill:#666}.line{stroke:#657789;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+    .dash{stroke:#888;stroke-width:2.2;stroke-dasharray:8 6;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1600" height="920" fill="white"/>
+<text x="800" y="42" text-anchor="middle" class="title">Extended conceptual architecture for workload-specific infrastructure planning</text>
+
+<rect x="25" y="75" width="305" height="530" rx="18" fill="#F5FAFA" stroke="#7BAFB7" stroke-width="2"/>
+<text x="178" y="108" text-anchor="middle" class="group">Inputs and evidence</text>
+<g>
+ <rect x="48" y="135" width="259" height="125" rx="14" fill="#EAF4F4" stroke="#147D80" stroke-width="2"/>
+ <text x="178" y="166" text-anchor="middle" class="h">User requirements</text>
+ <text x="178" y="193" text-anchor="middle" class="t">Workload and deployment type</text>
+ <text x="178" y="216" text-anchor="middle" class="t">Deadline or throughput</text>
+ <text x="178" y="239" text-anchor="middle" class="t">Latency, accuracy and limits</text>
+ <rect x="48" y="285" width="259" height="125" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="178" y="316" text-anchor="middle" class="h">Candidate catalogue</text>
+ <text x="178" y="343" text-anchor="middle" class="t">Observed configurations</text>
+ <text x="178" y="366" text-anchor="middle" class="t">Versioned hardware metadata</text>
+ <text x="178" y="389" text-anchor="middle" class="t">Missing fields remain missing</text>
+ <rect x="48" y="435" width="259" height="145" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="178" y="466" text-anchor="middle" class="h">External evidence</text>
+ <text x="178" y="493" text-anchor="middle" class="t">MLPerf result records</text>
+ <text x="178" y="516" text-anchor="middle" class="t">OEM specifications</text>
+ <text x="178" y="539" text-anchor="middle" class="t">Comparable prices when verified</text>
+ <text x="178" y="562" text-anchor="middle" class="t">Provenance and retrieval date</text>
+</g>
+
+<rect x="375" y="75" width="480" height="530" rx="18" fill="#FFFBF1" stroke="#D8A02B" stroke-width="2"/>
+<text x="615" y="108" text-anchor="middle" class="group">Workload-specific decision engines</text>
+<rect x="405" y="135" width="420" height="90" rx="14" fill="#EAF4F4" stroke="#147D80" stroke-width="2"/>
+<text x="615" y="168" text-anchor="middle" class="h">Workload profile and evidence boundary</text>
+<text x="615" y="195" text-anchor="middle" class="t">Validate inputs and select only matching empirical records</text>
+<rect x="405" y="260" width="195" height="125" rx="14" fill="#FFF3D9" stroke="#D88B0B" stroke-width="2"/>
+<text x="502" y="293" text-anchor="middle" class="h">Training feasibility</text>
+<text x="502" y="320" text-anchor="middle" class="t">Time-to-quality</text>
+<text x="502" y="343" text-anchor="middle" class="t">Deadline and limits</text>
+<text x="502" y="366" text-anchor="middle" class="t">S1 evidence</text>
+<rect x="630" y="260" width="195" height="125" rx="14" fill="#FFF3D9" stroke="#D88B0B" stroke-width="2"/>
+<text x="727" y="293" text-anchor="middle" class="h">Inference feasibility</text>
+<text x="727" y="320" text-anchor="middle" class="t">Throughput and latency</text>
+<text x="727" y="343" text-anchor="middle" class="t">Accuracy and limits</text>
+<text x="727" y="366" text-anchor="middle" class="t">S2 evidence</text>
+<rect x="405" y="425" width="195" height="135" rx="14" fill="#F8E9E9" stroke="#B44A4A" stroke-width="2"/>
+<text x="502" y="458" text-anchor="middle" class="h">Hard-constraint filter</text>
+<text x="502" y="485" text-anchor="middle" class="t">Test every requirement</text>
+<text x="502" y="508" text-anchor="middle" class="t">Retain rejection reasons</text>
+<text x="502" y="531" text-anchor="middle" class="t">Return infeasible if empty</text>
+<rect x="630" y="425" width="195" height="135" rx="14" fill="#F8E9E9" stroke="#B44A4A" stroke-width="2"/>
+<text x="727" y="458" text-anchor="middle" class="h">Explainable ranking</text>
+<text x="727" y="485" text-anchor="middle" class="t">Minimum resources first</text>
+<text x="727" y="508" text-anchor="middle" class="t">Declared tie-break</text>
+<text x="727" y="531" text-anchor="middle" class="t">No unsupported price claim</text>
+
+<rect x="900" y="75" width="330" height="530" rx="18" fill="#F5F8FC" stroke="#7798B8" stroke-width="2"/>
+<text x="1065" y="108" text-anchor="middle" class="group">Bounded supporting analyses</text>
+<g>
+ <rect x="925" y="135" width="280" height="92" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="1065" y="168" text-anchor="middle" class="h">Infrastructure sizing</text><text x="1065" y="198" text-anchor="middle" class="t">Accelerators, nodes and rack fit</text>
+ <rect x="925" y="250" width="280" height="92" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="1065" y="283" text-anchor="middle" class="h">Power and energy</text><text x="1065" y="313" text-anchor="middle" class="t">Measured value or labelled proxy</text>
+ <rect x="925" y="365" width="280" height="92" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="1065" y="398" text-anchor="middle" class="h">Cost analysis</text><text x="1065" y="428" text-anchor="middle" class="t">Only with comparable evidence</text>
+ <rect x="925" y="480" width="280" height="92" rx="14" fill="#EEF2FA" stroke="#2C6EA6" stroke-width="2"/>
+ <text x="1065" y="513" text-anchor="middle" class="h">Evidence and risk log</text><text x="1065" y="543" text-anchor="middle" class="t">Assumptions, gaps and violations</text>
+</g>
+
+<rect x="1275" y="75" width="300" height="530" rx="18" fill="#F4FAF6" stroke="#5A9E78" stroke-width="2"/>
+<text x="1425" y="108" text-anchor="middle" class="group">Decision outputs</text>
+<rect x="1300" y="145" width="250" height="105" rx="14" fill="#E8F5EC" stroke="#2C8C69" stroke-width="2"/>
+<text x="1425" y="181" text-anchor="middle" class="h">Feasible recommendation</text><text x="1425" y="211" text-anchor="middle" class="t">Configuration and justification</text>
+<rect x="1300" y="285" width="250" height="105" rx="14" fill="#FBEAEA" stroke="#B44A4A" stroke-width="2"/>
+<text x="1425" y="321" text-anchor="middle" class="h">Infeasible outcome</text><text x="1425" y="351" text-anchor="middle" class="t">Binding constraints explained</text>
+<rect x="1300" y="425" width="250" height="135" rx="14" fill="#E8F5EC" stroke="#2C8C69" stroke-width="2"/>
+<text x="1425" y="458" text-anchor="middle" class="h">Decision package</text><text x="1425" y="488" text-anchor="middle" class="t">Configuration and checks</text><text x="1425" y="511" text-anchor="middle" class="t">Provenance and assumptions</text><text x="1425" y="534" text-anchor="middle" class="t">Limitations and report fields</text>
+
+<rect x="375" y="660" width="1200" height="205" rx="18" fill="#FAFAFA" stroke="#888" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="975" y="695" text-anchor="middle" class="group">Conceptual extension — not validated in this study</text>
+<rect x="435" y="735" width="270" height="90" rx="14" fill="#F2F2F2" stroke="#888" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="570" y="769" text-anchor="middle" class="h">Existing-facility profile</text><text x="570" y="798" text-anchor="middle" class="future">Current assets and operating state</text>
+<rect x="805" y="735" width="270" height="90" rx="14" fill="#F2F2F2" stroke="#888" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="940" y="769" text-anchor="middle" class="h">Gap and compatibility</text><text x="940" y="798" text-anchor="middle" class="future">Compare current and recommended state</text>
+<rect x="1175" y="735" width="270" height="90" rx="14" fill="#F2F2F2" stroke="#888" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1310" y="769" text-anchor="middle" class="h">Upgrade alternatives</text><text x="1310" y="798" text-anchor="middle" class="future">Roadmap and replacement options</text>
+
+<path d="M307 198 H405" class="line"/><path d="M307 347 C350 347 360 195 405 195" class="line"/><path d="M307 505 C360 505 360 195 405 195" class="line"/>
+<path d="M615 225 V245 H502 V260" class="line"/><path d="M615 225 V245 H727 V260" class="line"/>
+<path d="M502 385 V425" class="line"/><path d="M727 385 C727 405 550 405 502 425" class="line"/><path d="M600 493 H630" class="line"/>
+<path d="M825 480 C870 480 880 181 925 181" class="line"/><path d="M825 492 C880 492 880 296 925 296" class="line"/><path d="M825 505 C880 505 880 411 925 411" class="line"/><path d="M825 518 H925" class="line"/>
+<path d="M825 465 C1080 465 1170 197 1300 197" class="line"/><path d="M600 535 C980 620 1160 337 1300 337" class="line"/>
+<path d="M1205 181 C1250 181 1250 465 1300 465" class="line"/><path d="M1205 296 C1255 296 1255 487 1300 487" class="line"/><path d="M1205 411 C1255 411 1255 510 1300 510" class="line"/><path d="M1205 526 H1300" class="line"/>
+<path d="M705 780 H805" class="dash"/><path d="M1075 780 H1175" class="dash"/><path d="M1310 735 C1310 650 1425 650 1425 560" class="dash"/>
+</svg>
